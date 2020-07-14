@@ -107,6 +107,18 @@ bool CChainParams::HasStakeMinAgeOrDepth(const int contextHeight, const uint32_t
         return (utxoFromBlockTime + nMinStakeAge <= contextTime);
 }
 
+/*
+    nonce 00423e80genesis is CBlock(hash=00000252cff3bf3a397753e70159c0b8a7770fe70a8e8b7b15fc18eed93ce3c2, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, 
+    hashMerkleRoot=ff37fcf44f827e55121519b1f471a316c75ef23caaf9d2ae6ffcb6a5868f375b, 
+    nTime=1575935960, nBits=1e0ffff0, nNonce=4341424, vtx=1)
+    CTransaction(hash=ff37fcf44f, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), 
+	coinbase 04ffff001d010439446f657320434f5649442d313920486176652074686520576f726c642052657468696e6b696e6720446f6c6c61722053757072656d6163793f)
+    CTxOut(nValue=0.00000000, scriptPubKey=04678afdb0fe5548271967f1a67130)
+
+  vMerkleTree:  ff37fcf44f827e55121519b1f471a316c75ef23caaf9d2ae6ffcb6a5868f375b
+*/
+
 class CMainParams : public CChainParams
 {
 public:
