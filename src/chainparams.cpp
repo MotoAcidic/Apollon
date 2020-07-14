@@ -119,10 +119,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x2a; // A
-        pchMessageStart[1] = 0x2b; // B
-        pchMessageStart[2] = 0x3e; // E
-        pchMessageStart[3] = 0x88; // T-8
+        pchMessageStart[0] = 0x90;
+        pchMessageStart[1] = 0xd1;
+        pchMessageStart[2] = 0xeb;
+        pchMessageStart[3] = 0xfd;
         vAlertPubKey = ParseHex("0435401a5693de702378a538ad939ea03b5e3b2826f68431ba840df5f418e3f3e8590ba4fb0c36097179bb55ffc4a4e065dc2ff87edb6f3ce4232a71d253ed7fff");
         nDefaultPort = 8322;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
@@ -193,15 +193,15 @@ public:
 
         vSeeds.push_back(CDNSSeedData("185.206.147.210", "185.206.147.210"));
 
-		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23); // A
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 25); // B
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 33);     // E
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
-        //  BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
-        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
-
-        convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 153);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
+        // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md // TODO: pull req for list
+        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x09)(0x01).convert_to_container<std::vector<unsigned char> >();
+       
+		convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
         fMiningRequiresPeers = true;
         fAllowMinDifficultyBlocks = false;
