@@ -1995,35 +1995,6 @@ double ConvertBitsToDouble(unsigned int nBits)
 
 int64_t GetBlockValue(int nHeight)
 {
-    /*unsigned int nPhase = 0;
-
-	if (nHeight == 0) return 2000000 * COIN;
-    if (nHeight <= 7200) nPhase = 1;
-    if (nHeight > 7200 && nHeight <= 72000) nPhase = 2;
-    if (nHeight > 72000 && nHeight <= 136800) nPhase = 3;
-    if (nHeight > 136800 && nHeight <= 266400) nPhase = 4;
-    if (nHeight > 266400 && nHeight <= 396000) nPhase = 5;
-    if (nHeight > 396000 && nHeight <= 655200) nPhase = 6;
-    if (nHeight > 655200 && nHeight <= 914400) nPhase = 7;
-    if (nHeight > 914400) nPhase = 8;
-
-    switch (nPhase) {
-        case 1: nSubsidy = 0.25 * COIN; break;
-        case 2: nSubsidy = 2.6 * COIN; break;
-        case 3: nSubsidy = 2.5 * COIN; break;
-        case 4: nSubsidy = 2.4 * COIN; break;
-        case 5: nSubsidy = 2.3 * COIN; break;
-        case 6: nSubsidy = 2.2 * COIN; break;
-        case 7: nSubsidy = 2.1 * COIN; break;
-        case 8: nSubsidy = 2 * COIN; break;
-        default: nSubsidy = 0 * COIN;
-    }
-
-    if (fDebug) {
-        LogPrintf("%s - currently in nPhase %d, blockreward %llu APOLLON\n",
-                  __func__, nPhase, nSubsidy);
-    }
-	*/
     int64_t nSubsidy = 0;
     nHeight--;
 	if (nHeight == 0){ nSubsidy = 2000000 * COIN;
@@ -2035,14 +2006,6 @@ int64_t GetBlockValue(int nHeight)
     } else if (nHeight > 396000 && nHeight <= 655200) { nSubsidy = 2.2 * COIN;
     } else if (nHeight > 655200 && nHeight <= 914400) { nSubsidy = 2.1 * COIN;
     } else if (nHeight > 914400)                      { nSubsidy = 2 * COIN; }
-
-	// Check if we reached the coin max supply.
-    int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-
-    if (nMoneySupply + nSubsidy >= Params().MaxMoneyOut())
-        nSubsidy = Params().MaxMoneyOut() - nMoneySupply;
-    if (nMoneySupply >= Params().MaxMoneyOut())
-        nSubsidy = 0;
 
     return nSubsidy;
 }
@@ -3165,6 +3128,27 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
         return state.DoS(100, error("ConnectBlock() : reward pays too much (actual=%s vs limit=%s)",
                                     FormatMoney(pindex->nMint), FormatMoney(nExpectedMint)),
                          REJECT_INVALID, "bad-cb-amount");
+    }
+
+	    //Check that the stake is distributed evenly between the staker and the masternode
+    bool isStake = block.nNonce == 0;
+    bool evenRewardEnforced = pindex->nHeight > Params().MinStakeHeight();
+    unsigned int stakeRecipientSize = block.vtx[isStake].vout.size() - (int)isStake;
+    LogPrintf("block %d has %d recipients\n", pindex->nHeight, stakeRecipientSize);
+    if (stakeRecipientSize == 1) {
+        LogPrintf("  - block does not honour masternode payment\n");
+        if (evenRewardEnforced)
+            return false;
+    } else {
+        auto mnOut = block.vtx[1].vout[stakeRecipientSize].nValue;
+        auto mnExp = GetMasternodePayment(pindex->nHeight, nExpectedMint, 0, false);
+        if (mnExp - mnOut > 100) {
+            LogPrintf("  - masternode isnt receiving full reward (expected %llu, found %llu)\n", mnExp, mnOut);
+            if (evenRewardEnforced)
+                return false;
+        } else {
+            LogPrintf("  - masternode is receiving expected reward (expected %llu, found %llu)\n", mnExp, mnOut);
+        }
     }
 
     // Ensure that accumulator checkpoints are valid and in the same state as this instance of the chain
