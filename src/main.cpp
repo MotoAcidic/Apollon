@@ -1997,23 +1997,58 @@ int64_t GetBlockValue(int nHeight)
 {
     int64_t nSubsidy = 0;
     nHeight--;
-	if (nHeight == 0){ nSubsidy = 2000000 * COIN;
-    } else if (nHeight > 1 && nHeight <= 7200)        { nSubsidy = .25 * COIN;
-    } else if (nHeight > 7200 && nHeight <= 72000)    { nSubsidy = 2.6 * COIN;
-    } else if (nHeight > 72000 && nHeight <= 136800)  { nSubsidy = 2.5 * COIN;
-    } else if (nHeight > 136800 && nHeight <= 266400) { nSubsidy = 2.4 * COIN;
-    } else if (nHeight > 266400 && nHeight <= 396000) { nSubsidy = 2.3 * COIN;
-    } else if (nHeight > 396000 && nHeight <= 655200) { nSubsidy = 2.2 * COIN;
-    } else if (nHeight > 655200 && nHeight <= 914400) { nSubsidy = 2.1 * COIN;
-    } else if (nHeight > 914400)                      { nSubsidy = 2 * COIN; }
+	if (nHeight == 0){ nSubsidy = 300000000 * COIN; //300m Premine for swap
+    } else if (nHeight > 1 && nHeight <= 50000)        { nSubsidy = 600 * COIN;
+    } else if (nHeight > 50000 && nHeight <= 100000)   { nSubsidy = 800 * COIN;
+    } else if (nHeight > 100000 && nHeight <= 150000)  { nSubsidy = 1000 * COIN;
+    } else if (nHeight > 150000 && nHeight <= 200000)  { nSubsidy = 1300 * COIN;
+    } else if (nHeight > 200000 && nHeight <= 250000)  { nSubsidy = 1600 * COIN;
+    } else if (nHeight > 250000 && nHeight <= 300000)  { nSubsidy = 1900 * COIN;
+    } else if (nHeight > 300000 && nHeight <= 350000)  { nSubsidy = 2200 * COIN;
+	} else if (nHeight > 350000 && nHeight <= 400000)  { nSubsidy = 2500 * COIN;
+    } else if (nHeight > 400000 && nHeight <= 450000)  { nSubsidy = 3000 * COIN;
+    } else if (nHeight > 450000 && nHeight <= 500000)  { nSubsidy = 3500 * COIN;
+    } else if (nHeight > 500000 && nHeight <= 550000)  { nSubsidy = 4000 * COIN;
+    } else if (nHeight > 550000 && nHeight <= 600000)  { nSubsidy = 3900 * COIN;
+    } else if (nHeight > 600000 && nHeight <= 650000)  { nSubsidy = 3800 * COIN;
+    } else if (nHeight > 650000 && nHeight <= 700000)  { nSubsidy = 3700 * COIN;
+	} else if (nHeight > 700000 && nHeight <= 750000)  { nSubsidy = 3600 * COIN;
+	} else if (nHeight > 750000 && nHeight <= 800000)  { nSubsidy = 3500 * COIN;
+    } else if (nHeight > 800000 && nHeight <= 850000)  { nSubsidy = 3400 * COIN;
+    } else if (nHeight > 850000 && nHeight <= 850000)  { nSubsidy = 3300 * COIN;
+    } else if (nHeight > 850000 && nHeight <= 900000)  { nSubsidy = 3200 * COIN;
+    } else if (nHeight > 900000 && nHeight <= 950000)  { nSubsidy = 3100 * COIN;
+    } else if (nHeight > 950000)                       { nSubsidy = 3000 * COIN; }
 
     return nSubsidy;
 }
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, bool isZPIVStake)
 {
-    if (nHeight > 500)
-        return blockValue * 0.90;
+    //if (nHeight > 500) return blockValue * 0.90;
+
+		if (nHeight == 0)							   { return blockValue * 0; //300m Premine for swap
+    } else if (nHeight > 1 && nHeight <= 50000)        { return blockValue * .35;
+    } else if (nHeight > 50000 && nHeight <= 100000)   { return blockValue * .34;
+    } else if (nHeight > 100000 && nHeight <= 150000)  { return blockValue * .33;
+    } else if (nHeight > 150000 && nHeight <= 200000)  { return blockValue * .32;
+    } else if (nHeight > 200000 && nHeight <= 250000)  { return blockValue * .31;
+    } else if (nHeight > 250000 && nHeight <= 300000)  { return blockValue * .30;
+    } else if (nHeight > 300000 && nHeight <= 350000)  { return blockValue * .29;
+	} else if (nHeight > 350000 && nHeight <= 400000)  { return blockValue * .28;
+    } else if (nHeight > 400000 && nHeight <= 450000)  { return blockValue * .27;
+    } else if (nHeight > 450000 && nHeight <= 500000)  { return blockValue * .26;
+    } else if (nHeight > 500000 && nHeight <= 550000)  { return blockValue * .25;
+    } else if (nHeight > 550000 && nHeight <= 600000)  { return blockValue * .24;
+    } else if (nHeight > 600000 && nHeight <= 650000)  { return blockValue * .23;
+    } else if (nHeight > 650000 && nHeight <= 700000)  { return blockValue * .22;
+	} else if (nHeight > 700000 && nHeight <= 750000)  { return blockValue * .21;
+	} else if (nHeight > 750000 && nHeight <= 800000)  { return blockValue * .20;
+    } else if (nHeight > 800000 && nHeight <= 850000)  { return blockValue * .19;
+    } else if (nHeight > 850000 && nHeight <= 850000)  { return blockValue * .18;
+    } else if (nHeight > 850000 && nHeight <= 900000)  { return blockValue * .17;
+    } else if (nHeight > 900000 && nHeight <= 950000)  { return blockValue * .16;
+    } else if (nHeight > 950000)                       { return blockValue * .15; }
     return 0;
 }
 
@@ -3112,16 +3147,12 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     if (block.IsProofOfWork())
         nExpectedMint += nFees;
 
-	if ((block.nTime == Params().OvermintBlockTime()) && (block.nBits == Params().OvermintBlocknBits())) {
-        LogPrintf("ConnectBlock(): You took too much man, too much, too much but also Ignoring overmint at block %d\n", pindex->nHeight);
-        nExpectedMint = GetBlockValue(pindex->pprev->nHeight);
-    }
-
-	/*if (7200 == pindex->nHeight || 72000 == pindex->nHeight) {
-        // Account for that one wrong block
+	/*if ((block.nTime == Params().OvermintBlockTime()) && (block.nBits == Params().OvermintBlocknBits())) {
         LogPrintf("ConnectBlock(): You took too much man, too much, too much but also Ignoring overmint at block %d\n", pindex->nHeight);
         nExpectedMint = GetBlockValue(pindex->pprev->nHeight);
     }*/
+
+	nExpectedMint = GetBlockValue(pindex->pprev->nHeight);
 
     //Check that the block does not overmint
     if (!IsBlockValueValid(block, nExpectedMint, pindex->nMint)) {

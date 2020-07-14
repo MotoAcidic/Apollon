@@ -4882,8 +4882,8 @@ Please be patient...</source>
         <translation>Трябва да зададете masternodeprivkey в конфигурационния файл. Консултирайте се с документацията за повече помощ.</translation>
     </message>
     <message>
-        <source>(8322 could be used only on mainnet)</source>
-        <translation>(8322 може да се ползва само в mainnet)</translation>
+        <source>(9270 could be used only on mainnet)</source>
+        <translation>(9270 може да се ползва само в mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4894,8 +4894,8 @@ Please be patient...</source>
         <translation>(по подразбиране: 1)</translation>
     </message>
     <message>
-        <source>(must be 8322 for mainnet)</source>
-        <translation>(трябва да е 8322 за mainnet)</translation>
+        <source>(must be 9270 for mainnet)</source>
+        <translation>(трябва да е 9270 за mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

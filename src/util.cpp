@@ -504,15 +504,15 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
                 "# Apollons Configuration File!\n"
                 "# If you need aditional addnodes vist site below.\n"
                 "# https://explorer.masternodes.online/currencies/APOLLON/ \n"
-                "addnode = 185.141.61.104 : 8322\n"
-                "addnode = 185.206.144.217 : 8322\n"
-                "addnode = 45.76.33.138 : 8322\n"
-                "addnode = 95.179.218.173 : 8322\n"
-                "addnode = 185.206.147.210 : 8322\n"
-                "addnode = 108.61.171.107 : 8322\n"
-                "addnode = 63.209.32.202 : 8322\n"
-                "addnode = 144.202.2.218 : 8322\n"
-                "addnode = 173.199.118.20 : 8322\n";
+                "addnode = 185.141.61.104 : 9270\n"
+                "addnode = 185.206.144.217 : 9270\n"
+                "addnode = 45.76.33.138 : 9270\n"
+                "addnode = 95.179.218.173 : 9270\n"
+                "addnode = 185.206.147.210 : 9270\n"
+                "addnode = 108.61.171.107 : 9270\n"
+                "addnode = 63.209.32.202 : 9270\n"
+                "addnode = 144.202.2.218 : 9270\n"
+                "addnode = 173.199.118.20 : 9270\n";
 			fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
 			fclose(configFile);
 			streamConfig.open(GetConfigFile());

@@ -124,7 +124,7 @@ public:
         pchMessageStart[2] = 0xeb;
         pchMessageStart[3] = 0xfd;
         vAlertPubKey = ParseHex("0435401a5693de702378a538ad939ea03b5e3b2826f68431ba840df5f418e3f3e8590ba4fb0c36097179bb55ffc4a4e065dc2ff87edb6f3ce4232a71d253ed7fff");
-        nDefaultPort = 8322;
+        nDefaultPort = 9270;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -132,20 +132,19 @@ public:
         nRejectBlockOutdatedMajority = 8792; // 95%
         nToCheckBlockUpgradeMajority = 9255; // Approximate expected amount of blocks in 7 days (1440*7.5)
         nMinerThreads = 0;
-        nTargetSpacing = 120;
-        nMaturity = 60;
+        nTargetSpacing = 120; // 2 Min
+        nMaturity = 120; // Confirmations to mature
         nStakeMinDepth = nMaturity; // input must be n confirms deep to stake
         nFutureTimeDriftPoW = 7200;
         nFutureTimeDriftPoS = 180;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 21000000 * COIN;
+        nMaxMoneyOut = INT_MAX * COIN; // INT_MAX is only 2147483647 but we have unlimited supply
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 500;
-        nMinStakeHeight = 500;
+        nLastPOWBlock = 500;        
         nApollonBadBlockTime = NEVER;
         nApollonBadBlocknBits = 0x1c056dac;
-        nOvermintBlockTime = 1585334110;
+        nOvermintBlockTime = NEVER;
         nOvermintBlocknBits = 0x486704385;
         nModifierUpdateBlock = 64;
         nZerocoinStartHeight = NEVER;
@@ -158,11 +157,12 @@ public:
         nInvalidAmountFiltered = 0 * COIN;
         nBlockZerocoinV2 = NEVER;
         nBlockDoubleAccumulated = NEVER;
-        nEnforceNewSporkKey = 1575935960;    // new spork always active on this chain.
+        nEnforceNewSporkKey = genesis.nTime; // new spork always active on this chain.
         nRejectOldSporkKey = 0;
         nBlockStakeModifierlV2 = NEVER;      // no point adding a vulnerability he thought
         // Staking Params
-        nMinStakeAmount = 10 * COIN;
+        nMinStakeHeight = nLastPOWBlock;
+        nMinStakeAmount = 200000 * COIN;
         nMinStakeHistory = 180;
         // Public coin spend enforcement
         nPublicZCSpends = NEVER;
@@ -187,8 +187,13 @@ public:
         genesis.nNonce = 2389631;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000726e77c06349eb9ca117cb1b0f06a783890ae561af1abcc11dcf043ad15"));
-        assert(genesis.hashMerkleRoot == uint256("0x754b4511c728d57456e7e0e9c490b681b521f019ca0c7d6828127ccf60606ea1"));
+        while (genesis.GetHash() > uint256("0x00000ffff0000000000000000000000000000000000000000000000000000000")) {
+            genesis.nNonce++;
+            if (genesis.nNonce % 128 == 0) printf("\rnonce %08x", genesis.nNonce);
+        }
+        printf("genesis is %s\n", genesis.ToString().c_str());
+        //assert(hashGenesisBlock == uint256("0x00000726e77c06349eb9ca117cb1b0f06a783890ae561af1abcc11dcf043ad15"));
+        //assert(genesis.hashMerkleRoot == uint256("0x754b4511c728d57456e7e0e9c490b681b521f019ca0c7d6828127ccf60606ea1"));
 
 
         vSeeds.push_back(CDNSSeedData("185.206.147.210", "185.206.147.210"));

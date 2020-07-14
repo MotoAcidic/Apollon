@@ -24,8 +24,8 @@ About APOLLON cryptocurrency
 |-----------------------|-----------------------------------------|
 | Ticker                | APOLLON                                    |
 | Algorithm             | QUARK                                   |
-| RPC Port              | 9322                                    |
-| P2P Port              | 8322                                    |
+| RPC Port              | 9279                                    |
+| P2P Port              | 9270                                    |
 | Masternode Collateral | 1000 APOLLON                               |
 | Block Spacing         | 120 Seconds                             |
 | PoW Period            | nHeight ≤ 500                           |

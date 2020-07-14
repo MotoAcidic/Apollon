@@ -250,10 +250,10 @@ QT_TRANSLATE_NOOP("apollon-core", ""
 QT_TRANSLATE_NOOP("apollon-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("apollon-core", "(8322 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("apollon-core", "(9270 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("apollon-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("apollon-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("apollon-core", "(must be 8322 for mainnet)"),
+QT_TRANSLATE_NOOP("apollon-core", "(must be 9270 for mainnet)"),
 QT_TRANSLATE_NOOP("apollon-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("apollon-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("apollon-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

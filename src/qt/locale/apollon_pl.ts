@@ -5183,8 +5183,8 @@ Proszę być cierpliwym...</translation>
         <translation>Musisz określić masternodeprivkey w konfiguracji. Aby uzyskać pomoc, zapoznaj się z dokumentacją.</translation>
     </message>
     <message>
-        <source>(8322 could be used only on mainnet)</source>
-        <translation>(8322 może być używany tylko w sieci mainnet)</translation>
+        <source>(9270 could be used only on mainnet)</source>
+        <translation>(9270 może być używany tylko w sieci mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5195,8 +5195,8 @@ Proszę być cierpliwym...</translation>
         <translation>(domyślnie: 1)</translation>
     </message>
     <message>
-        <source>(must be 8322 for mainnet)</source>
-        <translation>(musi być 8322 dla mainnetu)</translation>
+        <source>(must be 9270 for mainnet)</source>
+        <translation>(musi być 9270 dla mainnetu)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
