@@ -2003,8 +2003,8 @@ int64_t GetBlockValue(int nHeight)
     nHeight--;
 	if (nHeight == 0)														{ nSubsidy = GenesisValue * COIN; 
 	} else if (nHeight == 1)												{ nSubsidy = PremineValue * COIN;
-	} else if (nHeight > 1 && nHeight <= Params().LAST_POW_BLOCK)			{ nSubsidy = 0 * COIN;
-    } else if (nHeight > Params().LAST_POW_BLOCK && nHeight <= 50000)		{ nSubsidy = 600 * COIN;
+	} else if (nHeight > 1 && nHeight <= Params().LAST_POW_BLOCK())			{ nSubsidy = 0 * COIN;
+    } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 50000)		{ nSubsidy = 600 * COIN;
     } else if (nHeight > 50000 && nHeight <= 100000)						{ nSubsidy = 800 * COIN;
     } else if (nHeight > 100000 && nHeight <= 150000)						{ nSubsidy = 1000 * COIN;
     } else if (nHeight > 150000 && nHeight <= 200000)						{ nSubsidy = 1300 * COIN;
@@ -2031,8 +2031,8 @@ int64_t GetBlockValue(int nHeight)
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, bool isZPIVStake)
 {
 
-	if (nHeight >= 0 && nHeight <= Params().LAST_POW_BLOCK)				{ return blockValue * 0;
-    } else if (nHeight > Params().LAST_POW_BLOCK && nHeight <= 50000)   { return blockValue * .65;
+	if (nHeight >= 0 && nHeight <= Params().LAST_POW_BLOCK())			{ return blockValue * 0;
+    } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 50000) { return blockValue * .65;
     } else if (nHeight > 50000 && nHeight <= 100000)					{ return blockValue * .66;
     } else if (nHeight > 100000 && nHeight <= 150000)					{ return blockValue * .67;
     } else if (nHeight > 150000 && nHeight <= 200000)					{ return blockValue * .68;
