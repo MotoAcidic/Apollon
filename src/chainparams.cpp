@@ -54,12 +54,12 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x001"));
+    (0, uint256("0x00000252cff3bf3a397753e70159c0b8a7770fe70a8e8b7b15fc18eed93ce3c2"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1585334110, // * UNIX timestamp of last checkpoint block
-    220388,     // * total number of transactions between genesis and last checkpoint
+    1575935960, // * UNIX timestamp of last checkpoint block
+    0,     // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -196,19 +196,19 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1575935960; // 11/12/2019 @ 3:33pm (UTC)
         genesis.nBits = 0x1e0ffff0; // 00000ffff0000000000000000000000000000000000000000000000000000000
-        genesis.nNonce = 2389631;
+        genesis.nNonce = 4341424;
 
         hashGenesisBlock = genesis.GetHash();
-        while (genesis.GetHash() > uint256("0x00000ffff0000000000000000000000000000000000000000000000000000000")) {
-            genesis.nNonce++;
-            if (genesis.nNonce % 128 == 0) printf("\rnonce %08x", genesis.nNonce);
-        }
-        printf("genesis is %s\n", genesis.ToString().c_str());
-        //assert(hashGenesisBlock == uint256("0x00000726e77c06349eb9ca117cb1b0f06a783890ae561af1abcc11dcf043ad15"));
-        //assert(genesis.hashMerkleRoot == uint256("0x754b4511c728d57456e7e0e9c490b681b521f019ca0c7d6828127ccf60606ea1"));
+        //while (genesis.GetHash() > uint256("0x00000ffff0000000000000000000000000000000000000000000000000000000")) {
+        //    genesis.nNonce++;
+        //    if (genesis.nNonce % 128 == 0) printf("\rnonce %08x", genesis.nNonce);
+        //}
+        //printf("genesis is %s\n", genesis.ToString().c_str());
+        assert(hashGenesisBlock == uint256("0x00000252cff3bf3a397753e70159c0b8a7770fe70a8e8b7b15fc18eed93ce3c2"));
+        assert(genesis.hashMerkleRoot == uint256("0xff37fcf44f827e55121519b1f471a316c75ef23caaf9d2ae6ffcb6a5868f375b"));
 
 
-        vSeeds.push_back(CDNSSeedData("185.206.147.210", "185.206.147.210"));
+        //vSeeds.push_back(CDNSSeedData("185.206.147.210", "185.206.147.210"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);

@@ -2025,30 +2025,29 @@ int64_t GetBlockValue(int nHeight)
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, bool isZPIVStake)
 {
-    //if (nHeight > 500) return blockValue * 0.90;
 
-		if (nHeight == 0)							   { return blockValue * 0; //300m Premine for swap
-    } else if (nHeight > 1 && nHeight <= 50000)        { return blockValue * .35;
-    } else if (nHeight > 50000 && nHeight <= 100000)   { return blockValue * .34;
-    } else if (nHeight > 100000 && nHeight <= 150000)  { return blockValue * .33;
-    } else if (nHeight > 150000 && nHeight <= 200000)  { return blockValue * .32;
-    } else if (nHeight > 200000 && nHeight <= 250000)  { return blockValue * .31;
-    } else if (nHeight > 250000 && nHeight <= 300000)  { return blockValue * .30;
-    } else if (nHeight > 300000 && nHeight <= 350000)  { return blockValue * .29;
-	} else if (nHeight > 350000 && nHeight <= 400000)  { return blockValue * .28;
-    } else if (nHeight > 400000 && nHeight <= 450000)  { return blockValue * .27;
-    } else if (nHeight > 450000 && nHeight <= 500000)  { return blockValue * .26;
-    } else if (nHeight > 500000 && nHeight <= 550000)  { return blockValue * .25;
-    } else if (nHeight > 550000 && nHeight <= 600000)  { return blockValue * .24;
-    } else if (nHeight > 600000 && nHeight <= 650000)  { return blockValue * .23;
-    } else if (nHeight > 650000 && nHeight <= 700000)  { return blockValue * .22;
-	} else if (nHeight > 700000 && nHeight <= 750000)  { return blockValue * .21;
-	} else if (nHeight > 750000 && nHeight <= 800000)  { return blockValue * .20;
-    } else if (nHeight > 800000 && nHeight <= 850000)  { return blockValue * .19;
-    } else if (nHeight > 850000 && nHeight <= 850000)  { return blockValue * .18;
-    } else if (nHeight > 850000 && nHeight <= 900000)  { return blockValue * .17;
-    } else if (nHeight > 900000 && nHeight <= 950000)  { return blockValue * .16;
-    } else if (nHeight > 950000)                       { return blockValue * .15; }
+		if (nHeight == 0)							   { return blockValue * 0;
+    } else if (nHeight > 1 && nHeight <= 50000)        { return blockValue * .65;
+    } else if (nHeight > 50000 && nHeight <= 100000)   { return blockValue * .66;
+    } else if (nHeight > 100000 && nHeight <= 150000)  { return blockValue * .67;
+    } else if (nHeight > 150000 && nHeight <= 200000)  { return blockValue * .68;
+    } else if (nHeight > 200000 && nHeight <= 250000)  { return blockValue * .69;
+    } else if (nHeight > 250000 && nHeight <= 300000)  { return blockValue * .70;
+    } else if (nHeight > 300000 && nHeight <= 350000)  { return blockValue * .71;
+	} else if (nHeight > 350000 && nHeight <= 400000)  { return blockValue * .72;
+    } else if (nHeight > 400000 && nHeight <= 450000)  { return blockValue * .73;
+    } else if (nHeight > 450000 && nHeight <= 500000)  { return blockValue * .74;
+    } else if (nHeight > 500000 && nHeight <= 550000)  { return blockValue * .75;
+    } else if (nHeight > 550000 && nHeight <= 600000)  { return blockValue * .76;
+    } else if (nHeight > 600000 && nHeight <= 650000)  { return blockValue * .77;
+    } else if (nHeight > 650000 && nHeight <= 700000)  { return blockValue * .78;
+	} else if (nHeight > 700000 && nHeight <= 750000)  { return blockValue * .79;
+	} else if (nHeight > 750000 && nHeight <= 800000)  { return blockValue * .80;
+    } else if (nHeight > 800000 && nHeight <= 850000)  { return blockValue * .81;
+    } else if (nHeight > 850000 && nHeight <= 850000)  { return blockValue * .82;
+    } else if (nHeight > 850000 && nHeight <= 900000)  { return blockValue * .83;
+    } else if (nHeight > 900000 && nHeight <= 950000)  { return blockValue * .84;
+    } else if (nHeight > 950000)                       { return blockValue * .85; }
     return 0;
 }
 
