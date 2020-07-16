@@ -6,7 +6,6 @@
 
 #include <boost/assign/list_of.hpp>
 
-#include "main.h"
 #include "db.h"
 #include "kernel.h"
 #include "script/interpreter.h"
@@ -42,31 +41,6 @@ static bool GetLastStakeModifier(const CBlockIndex* pindex, uint64_t& nStakeModi
     nStakeModifier = pindex->nStakeModifier;
     nModifierTime = pindex->GetBlockTime();
     return true;
-}
-
-bool HasStakeMinDepth(int contextHeight, int utxoFromBlockHeight)
-{
-    const int minHistoryRequired = Params().MinStakeHistory();
-    return (contextHeight - utxoFromBlockHeight >= minHistoryRequired);
-}
-
-int GetLastHeight(uint256 txHash)
-{
-    uint256 hashBlock;
-    CTransaction stakeInput;
-    if (!GetTransaction(txHash, stakeInput, hashBlock, true))
-        return 0;
-
-    if (hashBlock == uint256())
-        return 0;
-
-    return mapBlockIndex[hashBlock]->nHeight;
-}
-
-bool AreMinChecksEnabled()
-{
-    const int nHeight = chainActive.Height();
-    return nHeight >= Params().MinStakeHeight();
 }
 
 // Get selection interval section (in seconds)
@@ -317,22 +291,6 @@ bool CheckStakeKernelHash(const CBlockIndex* pindexPrev, const unsigned int nBit
 
     const CAmount& nValueIn = stake->GetValue();
     const CDataStream& ssUniqueID = stake->GetUniqueness();
-
-	    //! enforce minimum stake amount
-    if (AreMinChecksEnabled()) {
-        const CAmount minStakeAmount = Params().MinStakeAmount();
-        if (nValueIn < minStakeAmount)
-            return error("%s : min stake amount not met (found %llu, minimum %llu)", __func__, nValueIn, minStakeAmount);
-
-        const int nPreviousBlockHeight = pindexPrev->nHeight;
-        const int nBlockFromHeight = stake->GetIndexFrom()->nHeight;
-
-        if (nBlockFromHeight == 0)
-            return false;
-
-        if (!HasStakeMinDepth(nPreviousBlockHeight + 1, nBlockFromHeight))
-            return error("CheckProofOfStake() : min stake depth not met");
-    }
 
     // Base target
     uint256 bnTarget;

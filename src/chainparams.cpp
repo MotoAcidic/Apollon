@@ -169,13 +169,9 @@ public:
         nInvalidAmountFiltered = 0 * COIN;
         nBlockZerocoinV2 = NEVER;
         nBlockDoubleAccumulated = NEVER;
-        nEnforceNewSporkKey = genesis.nTime; // new spork always active on this chain.
+        nEnforceNewSporkKey = 1575935960; // new spork always active on this chain.
         nRejectOldSporkKey = 0;
         nBlockStakeModifierlV2 = NEVER;      // no point adding a vulnerability he thought
-        // Staking Params
-        nMinStakeHeight = nLastPOWBlock;
-        nMinStakeAmount = 200000 * COIN;
-        nMinStakeHistory = 180;
         // Public coin spend enforcement
         nPublicZCSpends = NEVER;
 
@@ -234,7 +230,7 @@ public:
         strSporkKey = "032b46812dedb731d515b4fe28efd6591adcae691f03fb1577f1a6fb1c89f67ba2";
         strSporkKeyOld = "";
         strObfuscationPoolDummyAddress = "Ab5bNTKMKVJWLTDCwwEEvHH9MzDhxRaL5a";
-        nStartMasternodePayments = genesis.nTime;
+        nStartMasternodePayments = 1575935960;
 
         /** Zerocoin */
         zerocoinModulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"

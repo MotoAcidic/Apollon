@@ -114,9 +114,6 @@ public:
     int64_t Budget_Fee_Confirmations() const { return nBudget_Fee_Confirmations; }
 
     CBaseChainParams::Network NetworkID() const { return networkID; }
-    CAmount MinStakeAmount() const { return nMinStakeAmount; }
-    int MinStakeHistory() const { return nMinStakeHistory; }
-    int MinStakeHeight() const { return nMinStakeHeight; }
 
     /** Zerocoin **/
     std::string Zerocoin_Modulus() const { return zerocoinModulus; }
@@ -231,10 +228,6 @@ protected:
     int nBlockDoubleAccumulated;
     int nPublicZCSpends;
     int nBlockStakeModifierlV2;
-
-	CAmount nMinStakeAmount;
-    int nMinStakeHistory;
-    int nMinStakeHeight;
 
     // fake serial attack
     int nFakeSerialBlockheightEnd = 0;
