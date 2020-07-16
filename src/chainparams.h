@@ -115,6 +115,9 @@ public:
 
     CBaseChainParams::Network NetworkID() const { return networkID; }
 
+	// Min amount in order to stake
+    CAmount StakeInput() const { return nMinStakeInput; }
+
     /** Zerocoin **/
     std::string Zerocoin_Modulus() const { return zerocoinModulus; }
     libzerocoin::ZerocoinParams* Zerocoin_Params(bool useModulusV1) const;
@@ -178,6 +181,9 @@ protected:
     int nStakeMinDepth;
     int nFutureTimeDriftPoW;
     int nFutureTimeDriftPoS;
+
+	//Staking Related
+    CAmount nMinStakeInput;
 
     int nModifierUpdateBlock;
     CAmount nMaxMoneyOut;

@@ -175,6 +175,9 @@ public:
         // Public coin spend enforcement
         nPublicZCSpends = NEVER;
 
+		// Staking
+        nMinStakeInput = 200000 * COIN;
+
         // Fake Serial Attack
         nFakeSerialBlockheightEnd = NEVER;
         nSupplyBeforeFakeSerial = 0 * COIN;
