@@ -24,6 +24,9 @@ static const int GETHEADERS_VERSION = 70077;
 static const int MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT = 80000;
 static const int MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT = 80000;
 
+// In this version we change the min amount to stake with from any amount to 200000 coins
+static const int MIN_STAKE_VERSION = 80000;
+
 //! masternodes older than this proto version use old strMessage format for mnannounce
 static const int MIN_PEER_MNANNOUNCE = 70913;
 

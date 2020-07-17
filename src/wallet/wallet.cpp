@@ -1804,6 +1804,12 @@ bool CWallet::SelectStakeCoins(std::list<std::unique_ptr<CStakeInput> >& listInp
             if (nAmountSelected + out.tx->vout[out.i].nValue > nTargetAmount)
                 continue;
 
+            //check for minimal stake input after fork
+            if (ActiveProtocol() >= MIN_STAKE_VERSION) {
+                if (out.tx->vout[out.i].nValue < Params().StakeInput())
+                    continue;
+            }
+
             if (out.tx->vin[0].IsZerocoinSpend() && !out.tx->IsInMainChain())
                 continue;
 
