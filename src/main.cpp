@@ -4161,7 +4161,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
         if (ActiveProtocol() >= MIN_STAKE_VERSION) {
             if (!GetTransaction(block.vtx[1].vin[0].prevout.hash, txPrev, hashBlockPrev, true))
                 return state.DoS(100, error("CheckBlock() : stake failed to find vin transaction"));
-            if (txPrev.vout[block.vtx[1].vin[0].prevout.n].nValue < Params().StakeInputMinimal())
+            if (txPrev.vout[block.vtx[1].vin[0].prevout.n].nValue < Params().StakeInput())
                 return state.DoS(100, error("CheckBlock() : stake input below minimum value"));
         }
     }
