@@ -1471,124 +1471,49 @@ QCalendarWidget QAbstractItemView:disabled {
 QLineEdit {
     qproperty-frame: false;
 }
-#ProposalList QLineEdit {
-    margin-right: 2px;
-    margin-bottom: 20px;
+QWidget#GovernancePage .QFrame#frame_Content {
+    background-color: #ffffff;
 }
-#proposalWidget,
-#amountWidget,
-#startDateWidget,
-#endDateWidget,
-#yesVotesWidget,
-#noVotesWidget,
-#abstainVotesWidget {
-    margin-right: 4px;
+
+QWidget#GovernancePage .ProposalFrame {
+    border-radius: 5px;
+    margin: 2px;
+    max-height: 250px;
 }
-#updateNote,
-#ReceiveCoinsDialog #label_5 {
-    font-size: 11px;
-    color: #fff;
+
+    QWidget#GovernancePage .ProposalFrame#proposalFrame {
+        background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #9179c7, stop: 1 #b396f6);
+        border: 1px solid #b396f6;
+    }
+
+    QWidget#GovernancePage .ProposalFrame#proposalFramePassing {
+        background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #00cc00, stop: 1 #00ef00);
+        border: 1px solid #00ef00;
+    }
+
+    QWidget#GovernancePage .ProposalFrame#proposalFrameNotEstablished {
+        background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #0080ff, stop: 1 #00a3ff);
+        border: 1px solid #00a3ff;
+    }
+
+    QWidget#GovernancePage .ProposalFrame#proposalFramePassingUnfunded {
+        background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #cccc00, stop: 1 #efef00);
+        border: 1px solid #efef00;
+    }
+
+    QWidget#GovernancePage .ProposalFrame > QLabel#strProposalName, QLabel#strMonthlyPayout, QLabel#strRemainingPaymentCount {
+        font-size: 18pt;
+    }
+
+    QWidget#GovernancePage .ProposalFrame > QLabel#strProposalURL {
+        font-size: 14pt;
+    }
+
+QWidget#GovernancePage .QScrollArea, .QWidget#scrollAreaWidgetContents {
+    background-color: #fff;
 }
-#addressBookButton,
-#pasteButton {
-    background-color: transparent;
-    border: 0;
-    padding-left: 6px;
-    padding-right: 6px;
-}
-QHeaderView::down-arrow {
-    width: 8px;
-    height: 8px;
-    image: url(:/images/downArrow);
-    subcontrol-position: right center;
-    subcontrol-origin: margin;
-    margin-right: 8px;
-}
-QHeaderView::up-arrow {
-    width: 8px;
-    height: 8px;
-    image: url(:/images/upArrow);
-    subcontrol-position: right center;
-    subcontrol-origin: margin;
-    margin-right: 8px;
-}
-QSpinBox::up-arrow,
-AmountSpinBox::up-arrow {
-    width: 10px;
-    height: 10px;
-    image: url(:/images/upArrow);
-    border:none;
-}
-QSpinBox::down-arrow,
-AmountSpinBox::down-arrow {
-    width: 10px;
-    height: 10px;
-    image: url(:/images/downArrow);
-    border:none;
-}
-#labelStakingIcon {
-    width: 16px;
-}
-#labelBalancez {
-    font-weight: normal;
-}
-QPushButton#pushButtonSpentReset,
-QPushButton#pushButtonMintReset {
-    border: none;
-    color: #fff;
-    border-radius: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-QGroupBox {
-    margin-top: 6px;
-}
-QGroupBox::title {
-    subcontrol-origin: margin;
-    padding: 0px 5px 20px 0px;
-    font-size: 18px;
-}
-#labelBalancez,
-#labelTotalz {
-    font-size: 36px;
-}
-#labelTotalz span {
-    color: #fff;
-}
-.negative-sum {
-    color: #fff;
-}
-#BlockExplorer,
-#BlockExplorer QScrollArea *,
-#BlockExplorer #content {
-    background-color: #172035;
-}
-QAbstractScrollArea::corner {
-    background: transparent;
-}
-#MultiSendDialog #message,
-#MultisigDialog QScrollArea,
-#MultisigDialog #signButtonStatus,
-#MultisigDialog #createButtonStatus,
-#MultisigDialog #addMultisigStatus,
-#MultisigDialog #addAddressScrollArea {
-    border: 0;
-    background-color: #172035;
-}
-#txInputsScrollArea {
-    border: 0;
-    outline: none;
-}
-#MultisigDialog .QTabWidget QTabBar::tab {
-    min-width: 200px;
-}
-#selectFileButton {
-    background: none;
-    color: #fff;
-}
-#SignVerifyMessageDialog #messageIn_VM,
-#SignVerifyMessageDialog #messageIn_SM {
-    border: 0;
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+
+QWidget#GovernancePage .QGridLayout#proposalGrid {
+    margin-right: 35px !important;
+    padding-right: 35px !important;
 }

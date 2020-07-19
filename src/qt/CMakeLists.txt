@@ -115,6 +115,7 @@ SET(QT_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/coincontroldialog.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/zpivcontroldialog.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/coincontroltreewidget.cpp
+		${CMAKE_CURRENT_SOURCE_DIR}/proposalframe.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/privacydialog.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/proposalframe.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/editaddressdialog.cpp

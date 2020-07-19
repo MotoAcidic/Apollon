@@ -4,20 +4,22 @@
 
 #include "proposalframe.h"
 
+#include "main.h"
 #include "masternode-budget.h"
 #include "masternodeconfig.h"
+#include "messagesigner.h"
 #include "utilmoneystr.h"
 
-#include <QLayout>
-#include <QToolButton>
-#include <QPushButton>
-#include <QMessageBox>
+#include <QClipboard>
 #include <QDesktopServices>
 #include <QGuiApplication>
-#include <QClipboard>
-#include <QUrl>
-#include <QSpacerItem>
+#include <QLayout>
+#include <QMessageBox>
 #include <QMouseEvent>
+#include <QPushButton>
+#include <QSpacerItem>
+#include <QToolButton>
+#include <QUrl>
 
 ProposalFrame::ProposalFrame(QWidget* parent) : QFrame(parent)
 {
@@ -52,7 +54,7 @@ void ProposalFrame::setProposal(CBudgetProposal* proposal)
     QLabel* strMonthlyPayout = new QLabel();
     strMonthlyPayout->setObjectName(QStringLiteral("strMonthlyPayout"));
     strMonthlyPayout->setText(QString::fromStdString(FormatMoney(proposal->GetAmount())));
-    strMonthlyPayout->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+    strMonthlyPayout->setAlignment(Qt::AlignRight | Qt::AlignTrailing | Qt::AlignVCenter);
 
     proposalInfo->addWidget(strProposalName);
     proposalInfo->addWidget(strProposalHash);
@@ -71,18 +73,14 @@ void ProposalFrame::setGovernancePage(GovernancePage* governancePage)
     this->governancePage = governancePage;
 }
 
-void ProposalFrame::mousePressEvent(QMouseEvent* event)
-{
-
-}
+void ProposalFrame::mousePressEvent(QMouseEvent* event) {}
 
 void ProposalFrame::refresh()
 {
     if (!proposal) //TODO implement an error
         return;
 
-    if (extended)
-    {
+    if (extended) {
         // URL
         proposalURL = new QHBoxLayout();
 
@@ -97,7 +95,7 @@ void ProposalFrame::refresh()
         connect(strProposalURL, &QLabel::linkActivated, this, &ProposalFrame::proposalLink_clicked);
         proposalURL->addWidget(strProposalURL);
 
-        QSpacerItem* spacer = new QSpacerItem(1,1, QSizePolicy::Expanding, QSizePolicy::Fixed);
+        QSpacerItem* spacer = new QSpacerItem(1, 1, QSizePolicy::Expanding, QSizePolicy::Fixed);
         proposalURL->addSpacerItem(spacer);
 
         proposalItem->addLayout(proposalURL);
@@ -117,7 +115,7 @@ void ProposalFrame::refresh()
         yesButton->setIcon(QIcon(":/icons/yesvote"));
         if (nCountMyMasternodes < 0)
             yesButton->setEnabled(false);
-        connect(yesButton, &QPushButton::clicked, this, [this]{ voteButton_clicked(1); });
+        connect(yesButton, &QPushButton::clicked, this, [this] { voteButton_clicked(1); });
         QLabel* labelYesVotes = new QLabel();
         labelYesVotes->setText(tr("Yes:"));
         QLabel* yesVotes = new QLabel();
@@ -127,7 +125,7 @@ void ProposalFrame::refresh()
         abstainButton->setIcon(QIcon(":/icons/abstainvote"));
         if (nCountMyMasternodes < 0)
             abstainButton->setEnabled(false);
-        connect(abstainButton, &QPushButton::clicked, this, [this]{ voteButton_clicked(0); });
+        connect(abstainButton, &QPushButton::clicked, this, [this] { voteButton_clicked(0); });
         QLabel* labelAbstainVotes = new QLabel();
         labelAbstainVotes->setText(tr("Abstain:"));
         QLabel* abstainVotes = new QLabel();
@@ -137,7 +135,7 @@ void ProposalFrame::refresh()
         noButton->setIcon(QIcon(":/icons/novote"));
         if (nCountMyMasternodes < 0)
             noButton->setEnabled(false);
-        connect(noButton, &QPushButton::clicked, this, [this]{ voteButton_clicked(2); });
+        connect(noButton, &QPushButton::clicked, this, [this] { voteButton_clicked(2); });
         QLabel* labelNoVotes = new QLabel();
         labelNoVotes->setText(tr("No:"));
         QLabel* noVotes = new QLabel();
@@ -155,21 +153,19 @@ void ProposalFrame::refresh()
         proposalVotes->addWidget(noVotes);
         proposalVotes->addWidget(noButton);
         proposalItem->addLayout(proposalVotes);
-    } else
-    {
+
+    } else {
         delete strRemainingPaymentCount;
         QLayoutItem* child;
         while ((child = proposalVotes->takeAt(0)) != 0) {
-            if (child->widget() != 0)
-            {
+            if (child->widget() != 0) {
                 delete child->widget();
             }
             delete child;
         }
         delete proposalVotes;
         while ((child = proposalURL->takeAt(0)) != 0) {
-            if (child->widget() != 0)
-            {
+            if (child->widget() != 0) {
                 delete child->widget();
             }
             delete child;
@@ -178,15 +174,15 @@ void ProposalFrame::refresh()
     }
 }
 
-void ProposalFrame::proposalLink_clicked(const QString &link)
+void ProposalFrame::proposalLink_clicked(const QString& link)
 {
     QMessageBox Msgbox;
     QString strMsgBox = tr("A proposal URL can be used for phishing, scams and computer viruses. Open this link only if you trust the following URL.\n");
     strMsgBox += QString::fromStdString(proposal->GetURL());
     Msgbox.setText(strMsgBox);
     Msgbox.setStandardButtons(QMessageBox::Cancel);
-    QAbstractButton *openButton = Msgbox.addButton(tr("Open link"), QMessageBox::ApplyRole);
-    QAbstractButton *copyButton = Msgbox.addButton(tr("Copy link"), QMessageBox::ApplyRole);
+    QAbstractButton* openButton = Msgbox.addButton(tr("Open link"), QMessageBox::ApplyRole);
+    QAbstractButton* copyButton = Msgbox.addButton(tr("Copy link"), QMessageBox::ApplyRole);
 
     governancePage->lockUpdating(true);
     Msgbox.exec();
@@ -230,15 +226,12 @@ void ProposalFrame::voteButton_clicked(int nVote)
     if (!walletModel) return;
 
     // Request unlock if wallet was locked or unlocked for mixing:
-    WalletModel::EncryptionStatus encStatus = walletModel->getEncryptionStatus();
-    if (encStatus == walletModel->Locked) {
-        WalletModel::UnlockContext ctx(walletModel->requestUnlock(AskPassphraseDialog::Context::UI_Vote, true));
-        if (!ctx.isValid()) {
-            // Unlock wallet was cancelled
-            governancePage->lockUpdating(true);
-            QMessageBox::warning(this, tr("Wallet Locked"), tr("You must unlock your wallet to vote."), QMessageBox::Ok, QMessageBox::Ok);
-            return;
-        }
+    WalletModel::UnlockContext ctx(walletModel->requestUnlock());
+    if (!ctx.isValid()) {
+        // Unlock wallet was cancelled
+        governancePage->lockUpdating(true);
+        QMessageBox::warning(this, tr("Wallet Locked"), tr("You must unlock your wallet to vote."), QMessageBox::Ok, QMessageBox::Ok);
+        return;
     }
 
     // Display message box
@@ -263,7 +256,7 @@ void ProposalFrame::voteButton_clicked(int nVote)
 
 void ProposalFrame::SendVote(std::string strHash, int nVote)
 {
-    uint256 hash = uint256(strHash);
+    uint256 hash = uint256S(strHash);
     int failed = 0, success = 0;
     std::string mnresult;
     for (CMasternodeConfig::CMasternodeEntry mne : masternodeConfig.getEntries()) {
@@ -276,8 +269,8 @@ void ProposalFrame::SendVote(std::string strHash, int nVote)
         CPubKey pubKeyMasternode;
         CKey keyMasternode;
 
-        if (!obfuScationSigner.SetKey(mne.getPrivKey(), errorMessage, keyMasternode, pubKeyMasternode)) {
-            mnresult += mne.getAlias() + ": " + "Masternode signing error, could not set key correctly: " + errorMessage + "<br />";
+        if (!CMessageSigner::GetKeysFromSecret(mne.getPrivKey(), keyMasternode, pubKeyMasternode)) {
+            mnresult += mne.getAlias() + ": " + "Masternode signing error, could not set key correctly.<br />";
             failed++;
             continue;
         }
@@ -289,8 +282,13 @@ void ProposalFrame::SendVote(std::string strHash, int nVote)
             continue;
         }
 
+        bool fNewSigs = false;
+        {
+            LOCK(cs_main);
+            fNewSigs = chainActive.NewSigsActive();
+        }
         CBudgetVote vote(pmn->vin, hash, nVote);
-        if (!vote.Sign(keyMasternode, pubKeyMasternode)) {
+        if (!vote.Sign(keyMasternode, pubKeyMasternode, fNewSigs)) {
             mnresult += mne.getAlias() + ": " + "Failure to sign" + "<br />";
             failed++;
             continue;
@@ -306,7 +304,6 @@ void ProposalFrame::SendVote(std::string strHash, int nVote)
             mnresult += mne.getAlias() + ": " + "Failed!" + "<br />";
             failed++;
         }
-
     }
 
     QString strMessage = QString("Successfully voted with %1 masternode(s), failed with %2").arg(success).arg(failed);

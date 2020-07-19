@@ -6,12 +6,12 @@
 #define APOLLON_QT_PROPOSALFRAME_H
 
 #include <QFrame>
+#include <QHBoxLayout>
 #include <QLabel>
 #include <QWidget>
-#include <QHBoxLayout>
 
-#include "walletmodel.h"
 #include "governancepage.h"
+#include "walletmodel.h"
 
 class CBudgetProposal;
 
@@ -48,7 +48,7 @@ private:
 
 private Q_SLOTS:
     void voteButton_clicked(int nVote);
-    void proposalLink_clicked(const QString &link);
+    void proposalLink_clicked(const QString& link);
 };
 
 #endif //APOLLON_QT_PROPOSALFRAME_H

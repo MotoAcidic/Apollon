@@ -12,10 +12,10 @@
 
 #include <QFrame>
 #include <QGridLayout>
-#include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QMenu>
 #include <QTimer>
+#include <QVBoxLayout>
 #include <QWidget>
 
 class ClientModel;
@@ -24,7 +24,7 @@ class CBudgetProposal;
 
 namespace Ui
 {
-    class GovernancePage;
+class GovernancePage;
 }
 
 QT_BEGIN_NAMESPACE
