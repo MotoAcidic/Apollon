@@ -7,7 +7,6 @@
 #include "main.h"
 #include "masternode-budget.h"
 #include "masternodeconfig.h"
-#include "messagesigner.h"
 #include "utilmoneystr.h"
 
 #include <QClipboard>
@@ -269,8 +268,8 @@ void ProposalFrame::SendVote(std::string strHash, int nVote)
         CPubKey pubKeyMasternode;
         CKey keyMasternode;
 
-        if (!CMessageSigner::GetKeysFromSecret(mne.getPrivKey(), keyMasternode, pubKeyMasternode)) {
-            mnresult += mne.getAlias() + ": " + "Masternode signing error, could not set key correctly.<br />";
+        if (!obfuScationSigner.SetKey(mne.getPrivKey(), errorMessage, keyMasternode, pubKeyMasternode)) {
+            mnresult += mne.getAlias() + ": " + "Masternode signing error, could not set key correctly: " + errorMessage + "<br />";
             failed++;
             continue;
         }
