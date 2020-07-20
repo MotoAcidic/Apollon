@@ -145,12 +145,12 @@ public:
         nToCheckBlockUpgradeMajority = 9255; // Approximate expected amount of blocks in 7 days (1440*7.5)
         nMinerThreads = 0;
         nTargetSpacing = 120; // 2 Min
-        nMaturity = 120; // Confirmations to mature
+        nMaturity = 5; // Confirmations to mature
         nStakeMinDepth = nMaturity; // input must be n confirms deep to stake
         nFutureTimeDriftPoW = 7200;
         nFutureTimeDriftPoS = 180;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = INT_MAX * COIN; // INT_MAX is only 2147483647 but we have unlimited supply
+        nMaxMoneyOut = INT_MAX * COIN; // INT_MAX is only 2,147,483,647 but we have unlimited supply
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 500;        
