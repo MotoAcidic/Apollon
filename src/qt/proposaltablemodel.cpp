@@ -15,8 +15,6 @@
 #include "rpcconsole.h"
 
 #include "obfuscation.h"
-//#include "governance-vote.h"
-//#include "governance-object.h"
 
 #include "core_io.h"
 //#include "validation.h"

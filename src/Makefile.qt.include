@@ -289,7 +289,6 @@ RES_ICONS = \
   qt/res/light/icons/masternodes.png \
   qt/res/light/icons/overview.png \
   qt/res/light/icons/receive.png \
-  qt/res/light/icons/governance.png \
   qt/res/light/icons/send.png
 
 BITCOIN_QT_BASE_CPP = \

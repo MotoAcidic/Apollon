@@ -20,9 +20,8 @@
 #include "utilmoneystr.h"
 
 #include "obfuscation.h"
-#include "rpcserver.h"
+#include "rpcconsole.h"
 #include "util.h"
-//#include "governance.h"
 
 #include "ui_interface.h"
 

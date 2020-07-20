@@ -123,7 +123,7 @@
     </qresource>
 
     <qresource prefix="/icons_light">
-    	<file alias="governance">res/light/icons/governance.png</file>
+    	<file alias="proposal">res/light/icons/proposal.png</file>
     	<file alias="history">res/light/icons/history.png</file>
     	<file alias="logo">res/light/icons/logo.png</file>
     	<file alias="masternodes">res/light/icons/masternodes.png</file>
