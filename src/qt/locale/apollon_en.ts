@@ -561,11 +561,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>&amp;Governance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Show Proposals</source>
         <translation type="unfinished"></translation>
@@ -1581,64 +1576,6 @@ Address: %4
         <location line="+6"/>
         <source>Cannot create data directory here.</source>
         <translation>Cannot create data directory here.</translation>
-    </message>
-</context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <location filename="../forms/governancepage.ui" line="+14"/>
-        <source>Form</source>
-        <translation type="unfinished">Form</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>GOVERNANCE</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+141"/>
-        <source>Update Proposals</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+33"/>
-        <source>Next super block:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <source>0</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-63"/>
-        <source>Blocks to next super block:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Days to budget payout (estimate):</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Allotted budget:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Budget left:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Masternodes count:</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

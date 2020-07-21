@@ -1471,49 +1471,17 @@ QCalendarWidget QAbstractItemView:disabled {
 QLineEdit {
     qproperty-frame: false;
 }
-QWidget#GovernancePage .QFrame#frame_Content {
-    background-color: transparent;
+#ProposalList QLineEdit {
+    margin-right: 2px;
+    margin-bottom: 20px;
 }
 
-QWidget#GovernancePage .ProposalFrame {
-    border-radius: 5px;
-    margin: 2px;
-    max-height: 250px;
-}
-
-    QWidget#GovernancePage .ProposalFrame#proposalFrame {
-        background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 transparent, stop: 1 transparent);
-        border: 1px solid #b396f6;
-    }
-
-    QWidget#GovernancePage .ProposalFrame#proposalFramePassing {
-        background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 transparent, stop: 1 transparent);
-        border: 1px solid #00ef00;
-    }
-
-    QWidget#GovernancePage .ProposalFrame#proposalFrameNotEstablished {
-        background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 transparent, stop: 1 transparent);
-        border: 1px solid #00a3ff;
-    }
-
-    QWidget#GovernancePage .ProposalFrame#proposalFramePassingUnfunded {
-        background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 transparent, stop: 1 transparent);
-        border: 1px solid #efef00;
-    }
-
-    QWidget#GovernancePage .ProposalFrame > QLabel#strProposalName, QLabel#strMonthlyPayout, QLabel#strRemainingPaymentCount {
-        font-size: 18pt;
-    }
-
-    QWidget#GovernancePage .ProposalFrame > QLabel#strProposalURL {
-        font-size: 14pt;
-    }
-
-QWidget#GovernancePage .QScrollArea, .QWidget#scrollAreaWidgetContents {
-    background-color: transparent;
-}
-
-QWidget#GovernancePage .QGridLayout#proposalGrid {
-    margin-right: 35px !important;
-    padding-right: 35px !important;
+#proposalWidget,
+#amountWidget,
+#startDateWidget,
+#endDateWidget,
+#yesVotesWidget,
+#noVotesWidget,
+#abstainVotesWidget {
+    margin-right: 4px;
 }

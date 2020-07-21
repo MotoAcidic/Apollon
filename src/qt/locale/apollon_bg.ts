@@ -1201,17 +1201,6 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>От</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
-<context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
