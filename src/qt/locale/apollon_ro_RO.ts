@@ -120,9 +120,7 @@
 <context>
     <name>PrivacyDialog</name>
     </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
+
 <context>
     <name>QObject</name>
     </context>

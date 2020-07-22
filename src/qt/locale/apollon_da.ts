@@ -2802,9 +2802,7 @@ Vær tålmodig...</translation>
         <translation>Gebyr:</translation>
     </message>
 </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
+
 <context>
     <name>QObject</name>
     <message>

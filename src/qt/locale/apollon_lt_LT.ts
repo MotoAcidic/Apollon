@@ -2479,9 +2479,6 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
     </message>
 </context>
 <context>
-    <name>ProposalFrame</name>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>

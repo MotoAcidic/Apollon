@@ -2035,10 +2035,7 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>taxa:</translation>
     </message>
 </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
-<context>
+
     <name>QObject</name>
     <message>
         <source>Amount</source>

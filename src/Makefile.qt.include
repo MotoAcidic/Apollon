@@ -343,7 +343,6 @@ BITCOIN_QT_WALLET_CPP = \
   qt/proposaltablemodel.cpp \
   qt/receivecoinsdialog.cpp \
   qt/privacydialog.cpp \
-  qt/proposalframe.cpp \
   qt/receiverequestdialog.cpp \
   qt/recentrequeststablemodel.cpp \
   qt/sendcoinsdialog.cpp \

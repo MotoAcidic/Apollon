@@ -152,9 +152,7 @@
         <translation>मध्यम</translation>
     </message>
     </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
+
 <context>
     <name>QObject</name>
     </context>

@@ -2784,9 +2784,7 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Gebühr:</translation>
     </message>
 </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
+
 <context>
     <name>QObject</name>
     <message>

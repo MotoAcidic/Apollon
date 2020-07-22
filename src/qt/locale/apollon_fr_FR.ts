@@ -2940,76 +2940,7 @@ S'il vous plaît soyez patient ...</translation>
         <translation>frais:</translation>
     </message>
 </context>
-<context>
-    <name>ProposalFrame</name>
-    <message>
-        <source>Open proposal page in browser</source>
-        <translation>Ouvrir la page des propositions dans le navigateur</translation>
-    </message>
-    <message>
-        <source> remaining payment(s).</source>
-        <translation>paiement(s) restant.</translation>
-    </message>
-    <message>
-        <source>Yes:</source>
-        <translation>Pour:</translation>
-    </message>
-    <message>
-        <source>Abstain:</source>
-        <translation>Abstention:</translation>
-    </message>
-    <message>
-        <source>No:</source>
-        <translation>Contre:</translation>
-    </message>
-    <message>
-        <source>A proposal URL can be used for phishing, scams and computer viruses. Open this link only if you trust the following URL.
-</source>
-        <translation>Une page de proposition peut être utilisée pour le phishing, des escroqueries ou des virus informatiques. Ouvrez ce lien uniquement si vous faites confiance à l'URL suivante.
-</translation>
-    </message>
-    <message>
-        <source>Open link</source>
-        <translation>Ouvrir le lien</translation>
-    </message>
-    <message>
-        <source>Copy link</source>
-        <translation>Copier le lien</translation>
-    </message>
-    <message>
-        <source>Wallet Locked</source>
-        <translation>Portefeuille vérouillé</translation>
-    </message>
-    <message>
-        <source>You must unlock your wallet to vote.</source>
-        <translation>Vous devez déverrouiller votre portefeuille pour voter</translation>
-    </message>
-    <message>
-        <source>Do you want to vote %1 on</source>
-        <translation>Voulez-vous voter %1 pour</translation>
-    </message>
-    <message>
-        <source>using all your masternodes?</source>
-        <translation>en utilisant tous vos masternodes?</translation>
-    </message>
-    <message>
-        <source>Proposal Hash:</source>
-        <translation>Hash de la proposition:</translation>
-    </message>
-    <message>
-        <source>Proposal URL:</source>
-        <translation>URL de la proposition:</translation>
-    </message>
-    <message>
-        <source>Confirm Vote</source>
-        <translation>Confirmer le vote</translation>
-    </message>
-    <message>
-        <source>Vote Results</source>
-        <translation>Résultats du vote</translation>
-    </message>
-</context>
-<context>
+
     <name>QObject</name>
     <message>
         <source>Amount</source>

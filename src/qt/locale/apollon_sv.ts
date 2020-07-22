@@ -2973,69 +2973,6 @@ Var tålmodig...</translation>
     </message>
 </context>
 <context>
-    <name>ProposalFrame</name>
-    <message>
-        <source>Open proposal page in browser</source>
-        <translation>Öppna förslagssida i webbläsare</translation>
-    </message>
-    <message>
-        <source> remaining payment(s).</source>
-        <translation>återstående betalningar</translation>
-    </message>
-    <message>
-        <source>Yes:</source>
-        <translation>Ja:</translation>
-    </message>
-    <message>
-        <source>Abstain:</source>
-        <translation>Avstå:</translation>
-    </message>
-    <message>
-        <source>No:</source>
-        <translation>Nej:</translation>
-    </message>
-    <message>
-        <source>Open link</source>
-        <translation>Öppna länk:</translation>
-    </message>
-    <message>
-        <source>Copy link</source>
-        <translation>Kopiera länk:</translation>
-    </message>
-    <message>
-        <source>Wallet Locked</source>
-        <translation>Plånbok låst:</translation>
-    </message>
-    <message>
-        <source>You must unlock your wallet to vote.</source>
-        <translation>Du måste låsa upp din plånbok för att rösta.</translation>
-    </message>
-    <message>
-        <source>Do you want to vote %1 on</source>
-        <translation>Vill du rösta %1 på</translation>
-    </message>
-    <message>
-        <source>using all your masternodes?</source>
-        <translation>använda alla dina masternodes ?</translation>
-    </message>
-    <message>
-        <source>Proposal Hash:</source>
-        <translation>Föreslags hash:</translation>
-    </message>
-    <message>
-        <source>Proposal URL:</source>
-        <translation>Föreslags URL:</translation>
-    </message>
-    <message>
-        <source>Confirm Vote</source>
-        <translation>Bekräfta Röst:</translation>
-    </message>
-    <message>
-        <source>Vote Results</source>
-        <translation>Röst resultat:</translation>
-    </message>
-</context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>

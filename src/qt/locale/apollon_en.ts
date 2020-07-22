@@ -3718,13 +3718,7 @@ Please be patient...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
-<context>
-    <name>ProposalFrame</name>
-    <message>
-        <location filename="../proposalframe.cpp" line="+92"/>
-        <source>Open proposal page in browser</source>
-        <translation type="unfinished"></translation>
-    </message>
+
     <message>
         <location line="+16"/>
         <source> remaining payment(s).</source>

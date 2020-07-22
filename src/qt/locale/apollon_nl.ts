@@ -2915,57 +2915,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>kosten:</translation>
     </message>
 </context>
-<context>
-    <name>ProposalFrame</name>
-    <message>
-        <source>Open proposal page in browser</source>
-        <translation>Voorstelpagina in browser openen</translation>
-    </message>
-    <message>
-        <source>Yes:</source>
-        <translation>Voor:</translation>
-    </message>
-    <message>
-        <source>Abstain:</source>
-        <translation>Onthouden:</translation>
-    </message>
-    <message>
-        <source>No:</source>
-        <translation>Tegen:</translation>
-    </message>
-    <message>
-        <source>Open link</source>
-        <translation>Link openen</translation>
-    </message>
-    <message>
-        <source>Copy link</source>
-        <translation>Link kopiëren</translation>
-    </message>
-    <message>
-        <source>Wallet Locked</source>
-        <translation>Portemonnee Vergrendeld</translation>
-    </message>
-    <message>
-        <source>You must unlock your wallet to vote.</source>
-        <translation>Je moet uw portemonnee ontgrendelen om te stemmen.</translation>
-    </message>
-    <message>
-        <source>Proposal Hash:</source>
-        <translation>Voorstel Hash:</translation>
-    </message>
-    <message>
-        <source>Proposal URL:</source>
-        <translation>Voorstel URL:</translation>
-    </message>
-    <message>
-        <source>Confirm Vote</source>
-        <translation>Stem bevestigen</translation>
-    </message>
-    <message>
-        <source>Vote Results</source>
-        <translation>Stemresultaten</translation>
-    </message>
-</context>
+  
 <context>
     <name>QObject</name>
     <message>

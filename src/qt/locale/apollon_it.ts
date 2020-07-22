@@ -2139,9 +2139,6 @@ Per cambiare la percentuale (riavvio non necessario):
     </message>
 </context>
 <context>
-    <name>ProposalFrame</name>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>

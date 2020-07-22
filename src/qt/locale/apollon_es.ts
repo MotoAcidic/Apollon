@@ -2835,9 +2835,7 @@ Por favor espere...</translation>
         <translation>comisión:</translation>
     </message>
 </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
+
 <context>
     <name>QObject</name>
     <message>

@@ -748,9 +748,7 @@
         <translation>文字標籤</translation>
     </message>
     </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
+
 <context>
     <name>QObject</name>
     <message>

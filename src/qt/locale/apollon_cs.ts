@@ -1660,9 +1660,7 @@ MultiSend: %1</translation>
         <translation>Změna:</translation>
     </message>
     </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
+
 <context>
     <name>QObject</name>
     <message>
