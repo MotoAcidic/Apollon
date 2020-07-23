@@ -23,7 +23,7 @@
 #include "rpcconsole.h"
 #include "util.h"
 
-#include "ui_interface.h"
+#include"guiinterface.h"
 
 #include <QComboBox>
 #include <QDateTimeEdit>
