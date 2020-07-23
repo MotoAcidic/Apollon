@@ -481,6 +481,9 @@
     </message>
     </context>
 <context>
+    <name>ProposalFrame</name>
+    </context>
+<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -904,7 +907,7 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
@@ -1178,8 +1181,8 @@
         <translation>carteira %s reside fora do diretório %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Apollon to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o Apollon para completar.</translation>
+        <source>Wallet needed to be rewritten: restart Abet to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o Abet para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

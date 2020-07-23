@@ -645,15 +645,15 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Send coins to a APOLLON address</source>
         <translation>Отправить монеты на APOLLON адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
         <translation>Запросить платежи (генерирует QR-код и APOLLON: URI)</translation>
     </message>
     <message>
@@ -669,12 +669,12 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
-        <translation>&amp;О Apollon</translation>
+        <source>&amp;About Abet</source>
+        <translation>&amp;О Abet</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
-        <translation>Показать информацию о Apollon</translation>
+        <source>Show information about Abet</source>
+        <translation>Показать информацию о Abet</translation>
     </message>
     <message>
         <source>Modify configuration options for APOLLON</source>
@@ -729,12 +729,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
         <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды APOLLON</translation>
     </message>
     <message>
-        <source>Apollon client</source>
-        <translation>Клиент Apollon</translation>
+        <source>Abet client</source>
+        <translation>Клиент Abet</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -872,8 +872,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (apollon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (abet.conf).</translation>
     </message>
 </context>
 <context>
@@ -1222,16 +1222,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Apollon</source>
-        <translation>О Apollon</translation>
+        <source>About Abet</source>
+        <translation>О Abet</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1277,16 +1277,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
-        <translation>Добро пожаловать в Apollon.</translation>
+        <source>Welcome to Abet.</source>
+        <translation>Добро пожаловать в Abet.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Apollon.</translation>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Abet.</translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Apollon загрузит и сохранит копию цепочки блоков APOLLON. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Abet загрузит и сохранит копию цепочки блоков APOLLON. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1297,8 +1297,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1823,9 +1823,9 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</source>
+https://www.transifex.com/abet-project/abet-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/apollon-project/apollon-project-translations</translation>
+https://www.transifex.com/abet-project/abet-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2134,14 +2134,14 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <translation>Авточеканка в данный момен включена и установлена в</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in apollon.conf.</source>
-        <translation>To disable AutoMint add 'enablezeromint=0' in apollon.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in abet.conf.</source>
+        <translation>To disable AutoMint add 'enablezeromint=0' in abet.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in apollon.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in abet.conf</source>
         <translation>Авточеканка  в настоящее время отключена.
-Чтобы включить Авточеканку, измените 'enablezeromint = 0' на 'enablezeromint = 1' в файле apollon.conf</translation>
+Чтобы включить Авточеканку, измените 'enablezeromint = 0' на 'enablezeromint = 1' в файле abet.conf</translation>
     </message>
 </context>
 <context>
@@ -2167,8 +2167,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in apollon.co
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start apollon: click-to-pay handler</source>
-        <translation>Не удалось запустить apollon: обработчик click-to-pay </translation>
+        <source>Cannot start abet: click-to-pay handler</source>
+        <translation>Не удалось запустить abet: обработчик click-to-pay </translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid APOLLON address or malformed URI parameters.</source>
@@ -2418,8 +2418,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <source>Show the current status of automatic zAPOLLON minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to apollon.conf
-- disable: add 'enablezeromint=0' to apollon.conf
+- enable: add 'enablezeromint=1' to abet.conf
+- disable: add 'enablezeromint=0' to abet.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zAPOLLON
@@ -2428,8 +2428,8 @@ To change the percentage (no restart required):
         <translation>Показать текущий статус автоматической чеканки zAPOLLON.
 
 Чтобы изменить статус (требуется перезагрузка):
-- включить: добавить 'enablezeromint = 1' в apollon.conf
-- отключить: добавить 'enablezeromint = 0' в apollon.conf
+- включить: добавить 'enablezeromint = 1' в abet.conf
+- отключить: добавить 'enablezeromint = 0' в abet.conf
 
 Чтобы изменить процент (не требуется перезагрузка):
 - меню Настройки-&gt; Параметры-&gt; Процент авторизованного zAPOLLON</translation>
@@ -2719,7 +2719,7 @@ Please be patient...</source>
         <translation>Не предоставляется адрес «Pay To», создающий местный платеж</translation>
     </message>
     <message>
-        <source>Invalid Apollon Address</source>
+        <source>Invalid Abet Address</source>
         <translation>неправильный APOLLON адрес</translation>
     </message>
     <message>
@@ -2788,6 +2788,9 @@ Please be patient...</source>
     </message>
 </context>
 <context>
+    <name>ProposalFrame</name>
+    </context>
+<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -2838,8 +2841,8 @@ Please be patient...</source>
         <translation>%1 мс</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -3847,8 +3850,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
-        <translation>Apollon выключается...</translation>
+        <source>Abet is shutting down...</source>
+        <translation>Abet выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3997,8 +4000,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4014,7 +4017,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>The APOLLON Core developers</source>
-        <translation>Разработчики Apollon</translation>
+        <translation>Разработчики Abet</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4632,7 +4635,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = сохранить tx метаданные, например, владельца учетной записи и информацию о запросе платежа, 2 = удалить tx метаданные)</translation>
@@ -4658,8 +4661,8 @@ Please be patient...</source>
         <translation>Расчетная контрольная точка  не является тем, что регистрируется блочным индексом</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Apollon is probably already running.</source>
-        <translation>Не удается получить блокировку в каталоге данных %s. Apollon, вероятно, уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. Abet is probably already running.</source>
+        <translation>Не удается получить блокировку в каталоге данных %s. Abet, вероятно, уже запущен.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4830,8 +4833,8 @@ Please be patient...</source>
         <translation>Этот продукт включает программное обеспечение, разработанное OpenSSL Project для использования в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографическом программном обеспечении, написанном Эриком Яном и программным обеспечением UPnP, написанным Томасом Бернардом.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Apollon is probably already running.</source>
-        <translation>Не удалось привязать к %s на этом компьютере. Apollon, вероятно, уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. Abet is probably already running.</source>
+        <translation>Не удалось привязать к %s на этом компьютере. Abet, вероятно, уже запущен.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4858,8 +4861,8 @@ Please be patient...</source>
         <translation>Предупреждение: -paytxfee установлен очень высоко! Это комиссия за транзакцию, которую вы заплатите, если вы отправляете транзакцию.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Apollon will not work properly.</source>
-        <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, Apollon не будет работать должным образом.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Abet will not work properly.</source>
+        <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, Abet не будет работать должным образом.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4890,8 +4893,8 @@ Please be patient...</source>
         <translation>Вы должны указать в  строке приложенный ключ. Пожалуйста, обратитесь к документации для получения справки</translation>
     </message>
     <message>
-        <source>(9270 could be used only on mainnet)</source>
-        <translation>(9270 можно использовать только в сети)</translation>
+        <source>(8322 could be used only on mainnet)</source>
+        <translation>(8322 можно использовать только в сети)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4902,8 +4905,8 @@ Please be patient...</source>
         <translation>(неуплата: 1)</translation>
     </message>
     <message>
-        <source>(must be 9270 for mainnet)</source>
-        <translation>(должен быть 9270 для mainet)</translation>
+        <source>(must be 8322 for mainnet)</source>
+        <translation>(должен быть 8322 для mainet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4991,7 +4994,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The APOLLON Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики Apollon</translation>
+        <translation>Copyright (C) 2015-%i Разработчики Abet</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5070,8 +5073,8 @@ Please be patient...</source>
         <translation>Ошибка при загрузке wallet.dat: Кошелек поврежден</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Apollon</source>
-        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новой версии Apollon</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Abet</source>
+        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новой версии Abet</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5166,8 +5169,8 @@ Please be patient...</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Apollon is shutting down.</source>
-        <translation>Инициализация проверки работоспособности не удалась. Apollon отключается.</translation>
+        <source>Initialization sanity check failed. Abet is shutting down.</source>
+        <translation>Инициализация проверки работоспособности не удалась. Abet отключается.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5842,8 +5845,8 @@ Please be patient...</source>
         <translation>Кошелек %s находится за пределами каталога данных %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Apollon to complete</source>
-        <translation>Кошелек необходимо переписать: перезапустите Apollon, чтобы завершить</translation>
+        <source>Wallet needed to be rewritten: restart Abet to complete</source>
+        <translation>Кошелек необходимо переписать: перезапустите Abet, чтобы завершить</translation>
     </message>
     <message>
         <source>Wallet options:</source>

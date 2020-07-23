@@ -120,7 +120,9 @@
 <context>
     <name>PrivacyDialog</name>
     </context>
-
+<context>
+    <name>ProposalFrame</name>
+    </context>
 <context>
     <name>QObject</name>
     </context>
@@ -193,6 +195,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     </context>
 </TS>

@@ -653,15 +653,15 @@
         <translation>Onglets de la barre d'outils</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Send coins to a APOLLON address</source>
         <translation>Envoyer des pièces à une adresse APOLLON</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
         <translation>Requêtes de paiements (Génère des QR codes et des URIs APOLLON)</translation>
     </message>
     <message>
@@ -677,12 +677,12 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
-        <translation>A &amp;propos de Apollon</translation>
+        <source>&amp;About Abet</source>
+        <translation>A &amp;propos de Abet</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
-        <translation>Afficher les information concernant Apollon</translation>
+        <source>Show information about Abet</source>
+        <translation>Afficher les information concernant Abet</translation>
     </message>
     <message>
         <source>Modify configuration options for APOLLON</source>
@@ -737,12 +737,12 @@
         <translation>Fenêtre de Explorateur de Bloc</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
-        <translation>Afficher les message d'aide de Apollon pour avoir les options pour ligne de commande</translation>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
+        <translation>Afficher les message d'aide de Abet pour avoir les options pour ligne de commande</translation>
     </message>
     <message>
-        <source>Apollon client</source>
-        <translation>Apollon client</translation>
+        <source>Abet client</source>
+        <translation>Abet client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -854,7 +854,7 @@ Adresse : %4
     </message>
     <message>
         <source>A fatal error occurred. APOLLON can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale s'est produite. Apollon ne peut plus poursuivre en toute sécurité et va quitter.</translation>
+        <translation>Une erreur fatale s'est produite. Abet ne peut plus poursuivre en toute sécurité et va quitter.</translation>
     </message>
 </context>
 <context>
@@ -884,8 +884,8 @@ Adresse : %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (apollon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (abet.conf).</translation>
     </message>
 </context>
 <context>
@@ -1266,16 +1266,16 @@ Adresse : %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Apollon</source>
-        <translation>A propos de Apollon</translation>
+        <source>About Abet</source>
+        <translation>A propos de Abet</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1321,16 +1321,16 @@ Adresse : %4
         <translation>Bienvenu</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
-        <translation>Bienvenue à Apollon</translation>
+        <source>Welcome to Abet.</source>
+        <translation>Bienvenue à Abet</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
-        <translation>Comme c'est la première fois que le programme est lancé, vous pouvez choisir où Apollon va stocker ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
+        <translation>Comme c'est la première fois que le programme est lancé, vous pouvez choisir où Abet va stocker ses données.</translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Apollon téléchargera et stockera une copie de la chaîne de blocs APOLLON. Au moins %1 Go de données sera stocké dans ce répertoire, et il va augmenter au fil du temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Abet téléchargera et stockera une copie de la chaîne de blocs APOLLON. Au moins %1 Go de données sera stocké dans ce répertoire, et il va augmenter au fil du temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1341,8 +1341,8 @@ Adresse : %4
         <translation>Utiliser un répertoire spécifique de données </translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1937,9 +1937,9 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</source>
+https://www.transifex.com/abet-project/abet-project-translations</source>
         <translation>Langue manquante ou traduction incomplète? Aidez-nous à traduire ce projet ici:
-https://www.transifex.com/apollon-project/apollon-project-translations</translation>
+https://www.transifex.com/abet-project/abet-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2265,14 +2265,14 @@ Si l'Auto-monnayage est activé, ce pourcentage sera réglé au niveau du pource
         <translation>Auto-monnayage est actuellement activé et mis à</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in apollon.conf.</source>
-        <translation>Pour désactiver Auto-monnayage, ajoutez 'enablezeromint = 0' dans apollon.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in abet.conf.</source>
+        <translation>Pour désactiver Auto-monnayage, ajoutez 'enablezeromint = 0' dans abet.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in apollon.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in abet.conf</source>
         <translation>Auto-monnayage est actuellement désactivé.
-Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1' dans le fichier apollon.conf</translation>
+Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1' dans le fichier abet.conf</translation>
     </message>
 </context>
 <context>
@@ -2298,8 +2298,8 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>Adresse de paiement invalide %1</translation>
     </message>
     <message>
-        <source>Cannot start apollon: click-to-pay handler</source>
-        <translation>Impossible de démarrer apollon: gestionnaire click-to-pay</translation>
+        <source>Cannot start abet: click-to-pay handler</source>
+        <translation>Impossible de démarrer abet: gestionnaire click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid APOLLON address or malformed URI parameters.</source>
@@ -2549,8 +2549,8 @@ Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa
         <source>Show the current status of automatic zAPOLLON minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to apollon.conf
-- disable: add 'enablezeromint=0' to apollon.conf
+- enable: add 'enablezeromint=1' to abet.conf
+- disable: add 'enablezeromint=0' to abet.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zAPOLLON
@@ -2559,8 +2559,8 @@ To change the percentage (no restart required):
         <translation>Afficher l'état actuel de l'Auto-monnayage zAPOLLON.
 
 Pour changer le statut (redémarrage requis):
-- enable: ajoute 'enablezeromint = 1' au fichier apollon.conf
-- disable: ajoute 'enablezeromint = 0' au fichier apollon.conf
+- enable: ajoute 'enablezeromint = 1' au fichier abet.conf
+- disable: ajoute 'enablezeromint = 0' au fichier abet.conf
 
 Pour changer le pourcentage (pas de redémarrage requis):
 - menu Paramètres-&gt; Options-&gt; Pourcentage de zAPOLLON auto-monnayé
@@ -2864,8 +2864,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Aucune adresse 'Payer à' de fournie, création d'un paiement local</translation>
     </message>
     <message>
-        <source>Invalid Apollon Address</source>
-        <translation>Adresse Apollon incorrecte</translation>
+        <source>Invalid Abet Address</source>
+        <translation>Adresse Abet incorrecte</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2940,7 +2940,76 @@ S'il vous plaît soyez patient ...</translation>
         <translation>frais:</translation>
     </message>
 </context>
-
+<context>
+    <name>ProposalFrame</name>
+    <message>
+        <source>Open proposal page in browser</source>
+        <translation>Ouvrir la page des propositions dans le navigateur</translation>
+    </message>
+    <message>
+        <source> remaining payment(s).</source>
+        <translation>paiement(s) restant.</translation>
+    </message>
+    <message>
+        <source>Yes:</source>
+        <translation>Pour:</translation>
+    </message>
+    <message>
+        <source>Abstain:</source>
+        <translation>Abstention:</translation>
+    </message>
+    <message>
+        <source>No:</source>
+        <translation>Contre:</translation>
+    </message>
+    <message>
+        <source>A proposal URL can be used for phishing, scams and computer viruses. Open this link only if you trust the following URL.
+</source>
+        <translation>Une page de proposition peut être utilisée pour le phishing, des escroqueries ou des virus informatiques. Ouvrez ce lien uniquement si vous faites confiance à l'URL suivante.
+</translation>
+    </message>
+    <message>
+        <source>Open link</source>
+        <translation>Ouvrir le lien</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copier le lien</translation>
+    </message>
+    <message>
+        <source>Wallet Locked</source>
+        <translation>Portefeuille vérouillé</translation>
+    </message>
+    <message>
+        <source>You must unlock your wallet to vote.</source>
+        <translation>Vous devez déverrouiller votre portefeuille pour voter</translation>
+    </message>
+    <message>
+        <source>Do you want to vote %1 on</source>
+        <translation>Voulez-vous voter %1 pour</translation>
+    </message>
+    <message>
+        <source>using all your masternodes?</source>
+        <translation>en utilisant tous vos masternodes?</translation>
+    </message>
+    <message>
+        <source>Proposal Hash:</source>
+        <translation>Hash de la proposition:</translation>
+    </message>
+    <message>
+        <source>Proposal URL:</source>
+        <translation>URL de la proposition:</translation>
+    </message>
+    <message>
+        <source>Confirm Vote</source>
+        <translation>Confirmer le vote</translation>
+    </message>
+    <message>
+        <source>Vote Results</source>
+        <translation>Résultats du vote</translation>
+    </message>
+</context>
+<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -2995,8 +3064,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -3015,8 +3084,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Erreur de lecture du fichier de configuration Masternode: %1</translation>
     </message>
     <message>
-        <source>Apollon didn't yet exit safely...</source>
-        <translation>Apollon n'a pas encore quitté en toute sécurité ...</translation>
+        <source>Abet didn't yet exit safely...</source>
+        <translation>Abet n'a pas encore quitté en toute sécurité ...</translation>
     </message>
 </context>
 <context>
@@ -4051,8 +4120,8 @@ S'il vous plaît soyez patient ...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
-        <translation>Apollon est en cours de fermeture...</translation>
+        <source>Abet is shutting down...</source>
+        <translation>Abet est en cours de fermeture...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4201,8 +4270,8 @@ S'il vous plaît soyez patient ...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4218,7 +4287,7 @@ S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
         <source>The APOLLON Core developers</source>
-        <translation>Les développeurs Apollon</translation>
+        <translation>Les développeurs Abet</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4844,7 +4913,7 @@ S'il vous plaît soyez patient ...</translation>
     </message>
 </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = conserve les métadonnées de transaction, par exemple le propriétaire du compte et les informations de demande de paiement, 2 = supprime les métadonnées)</translation>
@@ -4870,8 +4939,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Le point de contrôle de l'accumulateur qui a été calculé ne correspond pas à ce qui est enregistré par l'index de bloc</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Apollon is probably already running.</source>
-        <translation>Impossible de vérouiller le répertoire de données %s. Apollon est probablement déjà en cours d'exécution.</translation>
+        <source>Cannot obtain a lock on data directory %s. Abet is probably already running.</source>
+        <translation>Impossible de vérouiller le répertoire de données %s. Abet est probablement déjà en cours d'exécution.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5066,8 +5135,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>La longueur totale de la chaîne dans la version réseau (%i) dépasse la longueur maximale (%i). Réduisez le nombre ou la taille des commentaires de l'Agent Utilisateur</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Apollon is probably already running.</source>
-        <translation>Impossible de se lier à %s depuis cet ordinateur. Apollon est probablement déjà en cours d'exécution.</translation>
+        <source>Unable to bind to %s on this computer. Abet is probably already running.</source>
+        <translation>Impossible de se lier à %s depuis cet ordinateur. Abet est probablement déjà en cours d'exécution.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -5094,8 +5163,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Attention: -paytxfee est réglé très haut! Ce sont les frais de transaction que vous paierez si vous envoyez une transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Apollon will not work properly.</source>
-        <translation>Avertissement: Veuillez vérifier que la date et l'heure de votre ordinateur sont correctes! Si votre horloge est incorrecte, Apollon ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Abet will not work properly.</source>
+        <translation>Avertissement: Veuillez vérifier que la date et l'heure de votre ordinateur sont correctes! Si votre horloge est incorrecte, Abet ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5103,7 +5172,7 @@ S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Attention: Il semble que nous soyons en désaccord avec nos pairs sur le réseau! Cela signifie que vous pourriez avoir besoin de mettre à jour votre Apollon, ou que les autres noeuds aient besoin de se mettre à jour de leur côté.</translation>
+        <translation>Attention: Il semble que nous soyons en désaccord avec nos pairs sur le réseau! Cela signifie que vous pourriez avoir besoin de mettre à jour votre Abet, ou que les autres noeuds aient besoin de se mettre à jour de leur côté.</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -5126,8 +5195,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Vous devez spécifier une masternodeprivkey dans la configuration. Veuillez consulter la documentation pour obtenir de l'aide.</translation>
     </message>
     <message>
-        <source>(9270 could be used only on mainnet)</source>
-        <translation>(9270 ne peut être utilisé que pour le mainnet)</translation>
+        <source>(8322 could be used only on mainnet)</source>
+        <translation>(8322 ne peut être utilisé que pour le mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5138,8 +5207,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 9270 for mainnet)</source>
-        <translation>(doit être 9270 pour le mainnet)</translation>
+        <source>(must be 8322 for mainnet)</source>
+        <translation>(doit être 8322 pour le mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -5235,7 +5304,7 @@ S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The APOLLON Core Developers</source>
-        <translation>Copyright (C) 2015-%i Les développeurs de Apollon</translation>
+        <translation>Copyright (C) 2015-%i Les développeurs de Abet</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5318,7 +5387,7 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Erreur de chargement du fichier wallet.dat: Portefeuille corrompu</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Apollon</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Abet</source>
         <translation>Erreur de chargement du fichier wallet.dat: Le portefeuille nécessite une version plus récente du APOLLON core</translation>
     </message>
     <message>
@@ -5414,8 +5483,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Apollon is shutting down.</source>
-        <translation>Échec de la vérification de l'initialisation. Apollon va fermer.</translation>
+        <source>Initialization sanity check failed. Abet is shutting down.</source>
+        <translation>Échec de la vérification de l'initialisation. Abet va fermer.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -6115,8 +6184,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Vérification du portefeuille...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Apollon to complete</source>
-        <translation>Le portefeuille doit être réécrit: redémarrez Apollon pour terminer</translation>
+        <source>Wallet needed to be rewritten: restart Abet to complete</source>
+        <translation>Le portefeuille doit être réécrit: redémarrez Abet pour terminer</translation>
     </message>
     <message>
         <source>Wallet options:</source>

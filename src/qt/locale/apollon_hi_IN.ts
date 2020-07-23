@@ -152,7 +152,9 @@
         <translation>मध्यम</translation>
     </message>
     </context>
-
+<context>
+    <name>ProposalFrame</name>
+    </context>
 <context>
     <name>QObject</name>
     </context>
@@ -325,7 +327,7 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>Information</source>
         <translation>जानकारी</translation>

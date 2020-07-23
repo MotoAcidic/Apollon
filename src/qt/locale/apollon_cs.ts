@@ -601,16 +601,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Send coins to a APOLLON address</source>
         <translation>Odeslat platbuna APOLLON adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a apollon: URIs)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a abet: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -625,12 +625,12 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
-        <translation>&amp;O Apollon</translation>
+        <source>&amp;About Abet</source>
+        <translation>&amp;O Abet</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
-        <translation>Zobraz informace o Apollon</translation>
+        <source>Show information about Abet</source>
+        <translation>Zobraz informace o Abet</translation>
     </message>
     <message>
         <source>Modify configuration options for APOLLON</source>
@@ -685,12 +685,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
-        <translation>Zobrazit Apollon pomocnou zpráv pro získání seznamu možných parametrů APOLLON pro příkazy do příkazové řádky</translation>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
+        <translation>Zobrazit Abet pomocnou zpráv pro získání seznamu možných parametrů APOLLON pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Apollon client</source>
-        <translation>Apollon klient</translation>
+        <source>Abet client</source>
+        <translation>Abet klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -820,8 +820,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (apollon.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (abet.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1138,12 +1138,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
-        <source>About Apollon</source>
-        <translation>O Apollon</translation>
+        <source>About Abet</source>
+        <translation>O Abet</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1177,16 +1177,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
-        <translation>Vítejte v Apollon.</translation>
+        <source>Welcome to Abet.</source>
+        <translation>Vítejte v Abet.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Apollon ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Abet ukládat svá data.</translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Apollon stáhne a uloží kopii APOLLON blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Abet stáhne a uloží kopii APOLLON blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1197,8 +1197,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1660,7 +1660,9 @@ MultiSend: %1</translation>
         <translation>Změna:</translation>
     </message>
     </context>
-
+<context>
+    <name>ProposalFrame</name>
+    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -1688,8 +1690,8 @@ MultiSend: %1</translation>
         <translation>N/A</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -1707,7 +1709,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Oapolloné</translation>
+        <translation>Oabeté</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2218,8 +2220,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -2329,7 +2331,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

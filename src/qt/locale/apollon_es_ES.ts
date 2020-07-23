@@ -460,7 +460,9 @@
         <translation>Alt+P</translation>
     </message>
     </context>
-
+<context>
+    <name>ProposalFrame</name>
+    </context>
 <context>
     <name>QObject</name>
     </context>
@@ -653,7 +655,7 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>Zapping all transactions from wallet...</source>
         <translation>Saltando todas las transacciones del monedero...</translation>

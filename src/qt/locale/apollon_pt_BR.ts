@@ -613,16 +613,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Send coins to a APOLLON address</source>
         <translation>Enviar moedas para um endereço APOLLON</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e apollon: URIs)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e abet: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,12 +637,12 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
-        <translation>&amp;Sobre o Apollon</translation>
+        <source>&amp;About Abet</source>
+        <translation>&amp;Sobre o Abet</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
-        <translation>Mostra informação sobre o Apollon</translation>
+        <source>Show information about Abet</source>
+        <translation>Mostra informação sobre o Abet</translation>
     </message>
     <message>
         <source>Modify configuration options for APOLLON</source>
@@ -697,11 +697,11 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
-        <translation>Mostra a ajuda da Apollon para receber uma lista com possíveis opções de linha de comando APOLLON</translation>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
+        <translation>Mostra a ajuda da Abet para receber uma lista com possíveis opções de linha de comando APOLLON</translation>
     </message>
     <message>
-        <source>Apollon client</source>
+        <source>Abet client</source>
         <translation>Cliente Core APOLLON</translation>
     </message>
     <message>
@@ -837,8 +837,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (apollon.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (abet.conf). </translation>
     </message>
 </context>
 <context>
@@ -1175,16 +1175,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Apollon</source>
-        <translation>Sobre o Apollon</translation>
+        <source>About Abet</source>
+        <translation>Sobre o Abet</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1226,16 +1226,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
-        <translation>Bem-vindo ao Apollon.</translation>
+        <source>Welcome to Abet.</source>
+        <translation>Bem-vindo ao Abet.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Apollon vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Abet vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Apollon vai baixar e armazenar uma cópia da blockchain APOLLON. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Abet vai baixar e armazenar uma cópia da blockchain APOLLON. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1246,8 +1246,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1622,9 +1622,9 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</source>
+https://www.transifex.com/abet-project/abet-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/apollon-project/apollon-project-translations</translation>
+https://www.transifex.com/abet-project/abet-project-translations</translation>
     </message>
     <message>
         <source>Connect to the APOLLON network through a SOCKS5 proxy.</source>
@@ -2035,7 +2035,10 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>taxa:</translation>
     </message>
 </context>
-
+<context>
+    <name>ProposalFrame</name>
+    </context>
+<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -2082,8 +2085,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -2846,8 +2849,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
-        <translation>Apollon está desligando...</translation>
+        <source>Abet is shutting down...</source>
+        <translation>Abet está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2988,8 +2991,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3005,7 +3008,7 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
     </message>
     <message>
         <source>The APOLLON Core developers</source>
-        <translation>Os desenvolvedores do Apollon</translation>
+        <translation>Os desenvolvedores do Abet</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3531,7 +3534,7 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
@@ -3589,7 +3592,7 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Apollon will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Abet will not work properly.</source>
         <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core APOLLON não vai funcionar corretamente.</translation>
     </message>
     <message>
@@ -3605,8 +3608,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(9270 could be used only on mainnet)</source>
-        <translation>(9270 could be used only on mainnet)</translation>
+        <source>(8322 could be used only on mainnet)</source>
+        <translation>(8322 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3617,8 +3620,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 9270 for mainnet)</source>
-        <translation>(deve ser 9270 para mainnet)</translation>
+        <source>(must be 8322 for mainnet)</source>
+        <translation>(deve ser 8322 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
@@ -3658,7 +3661,7 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
     </message>
     <message>
         <source>Copyright (C) 2015-%i The APOLLON Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Apollon</translation>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Abet</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3709,8 +3712,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Apollon</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Apollon</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Abet</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Abet</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4063,8 +4066,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>Verificando carteira...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Apollon to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o Apollon para completar</translation>
+        <source>Wallet needed to be rewritten: restart Abet to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o Abet para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>
