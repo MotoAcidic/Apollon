@@ -16,6 +16,7 @@
 #include "notificator.h"
 #include "openuridialog.h"
 #include "optionsmodel.h"
+#include "optionsdialog.h"
 #include "rpcconsole.h"
 #include "utilitydialog.h"
 #include "proposallist.h"
