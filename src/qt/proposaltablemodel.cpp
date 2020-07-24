@@ -13,6 +13,7 @@
 #include "optionsmodel.h"
 #include "proposalrecord.h"
 #include "rpcconsole.h"
+#include "base58.h"
 
 #include "obfuscation.h"
 
