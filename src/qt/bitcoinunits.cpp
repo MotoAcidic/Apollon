@@ -41,11 +41,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case APOLLON:
-        return QString("apollon");
+        return QString("xap");
     case mAPOLLON:
-        return QString("mapollon");
+        return QString("mxap");
     case uAPOLLON:
-        return QString::fromUtf8("uapollon");
+        return QString::fromUtf8("uxap");
     default:
         return QString("???");
     }
@@ -56,22 +56,22 @@ QString BitcoinUnits::name(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case APOLLON:
-            return QString("APOLLON");
+            return QString("XAP");
         case mAPOLLON:
-            return QString("mAPOLLON");
+            return QString("mXAP");
         case uAPOLLON:
-            return QString::fromUtf8("μAPOLLON");
+            return QString::fromUtf8("μXAP");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case APOLLON:
-            return QString("tAPOLLON");
+            return QString("tXAP");
         case mAPOLLON:
-            return QString("mtAPOLLON");
+            return QString("mtXAP");
         case uAPOLLON:
-            return QString::fromUtf8("μtAPOLLON");
+            return QString::fromUtf8("μtXAP");
         default:
             return QString("???");
         }
@@ -83,22 +83,22 @@ QString BitcoinUnits::description(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case APOLLON:
-            return QString("APOLLON");
+            return QString("XAP");
         case mAPOLLON:
-            return QString("Milli-APOLLON (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-XAP (1 / 1" THIN_SP_UTF8 "000)");
         case uAPOLLON:
-            return QString("Micro-APOLLON (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-XAP (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case APOLLON:
-            return QString("TestAPOLLONs");
+            return QString("TestXAPs");
         case mAPOLLON:
-            return QString("Milli-TestAPOLLON (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-TestXAP (1 / 1" THIN_SP_UTF8 "000)");
         case uAPOLLON:
-            return QString("Micro-TestAPOLLON (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-TestXAP (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
