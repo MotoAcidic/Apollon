@@ -74,7 +74,7 @@ void budgetToST(CBudgetProposal* pbudgetProposal, UniValue& bObj)
     bObj.push_back(pbudgetProposal->GetYeas());
     bObj.push_back(pbudgetProposal->GetNays());
     bObj.push_back(pbudgetProposal->GetAbstains());
-    bObj.push_back(ValueFromAmount(pbudgetProposal->GetAmount() * pbudgetProposal->GetTotalPaymentCount()));
+    bObj.push_back(AmountFromValue(pbudgetProposal->GetAmount() * pbudgetProposal->GetTotalPaymentCount()));
     bObj.push_back(pbudgetProposal->GetAmount());
     bObj.push_back(pbudgetProposal->IsEstablished());
 
