@@ -645,7 +645,7 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON CORE</translation>
     </message>
     <message>
@@ -653,8 +653,8 @@
         <translation>Koinleri APOLLON adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve apollon üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve abet üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,11 +669,11 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
+        <source>&amp;About Abet</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
+        <source>Show information about Abet</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
@@ -729,12 +729,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
-        <translation>Olası APOLLON komut satırı seçeneklerine sahip bir liste almak için Apollon yardım mesajını gösterin</translation>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
+        <translation>Olası APOLLON komut satırı seçeneklerine sahip bir liste almak için Abet yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>Apollon client</source>
-        <translation>Apollon istemci</translation>
+        <source>Abet client</source>
+        <translation>Abet istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -872,8 +872,8 @@ Adres: %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (apollon.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (abet.conf).
 </translation>
     </message>
 </context>
@@ -1219,7 +1219,7 @@ Adres: %4
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON CORE</translation>
     </message>
     <message>
@@ -1227,8 +1227,8 @@ Adres: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Apollon</source>
-        <translation>hakkında Apollon</translation>
+        <source>About Abet</source>
+        <translation>hakkında Abet</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1274,16 +1274,16 @@ Adres: %4
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
-        <translation>Apollon'a hoşgeldiniz.</translation>
+        <source>Welcome to Abet.</source>
+        <translation>Abet'a hoşgeldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
-        <translation>Program ilk başlatıldığında Apollon'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
+        <translation>Program ilk başlatıldığında Abet'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Apollon, APOLLON blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecek. Cüzdan ayrıca bu dizinde saklanır.</translation>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Abet, APOLLON blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecek. Cüzdan ayrıca bu dizinde saklanır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1294,7 +1294,7 @@ Adres: %4
         <translation>Özel bir veri dizini kullanın:</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON CORE</translation>
     </message>
     <message>
@@ -1854,9 +1854,9 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</source>
+https://www.transifex.com/abet-project/abet-project-translations</source>
         <translation>Dil eksik veya çeviri tamamlanmamış mı? Katkıda bulunan çevirilere yardımcı olun:
-https://www.transifex.com/apollon-project/apollon-project-translations</translation>
+https://www.transifex.com/abet-project/abet-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2162,14 +2162,14 @@ AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi e
         <translation>AutoMint şu anda etkinleştirilmiş ve</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in apollon.conf.</source>
-        <translation>AutoMint kapatmak için ekle  'enablezeromint=0'  apollon.conf. dosyasına</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in abet.conf.</source>
+        <translation>AutoMint kapatmak için ekle  'enablezeromint=0'  abet.conf. dosyasına</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in apollon.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in abet.conf</source>
         <translation>AutoMint şu anda aktif değil.
- AutoMint aktive etmek için  değiştir 'enablezeromint=0' yazan kısmı 'enablezeromint=1' şeklinde apollon.conf dosyasında</translation>
+ AutoMint aktive etmek için  değiştir 'enablezeromint=0' yazan kısmı 'enablezeromint=1' şeklinde abet.conf dosyasında</translation>
     </message>
 </context>
 <context>
@@ -2195,8 +2195,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in apollon.co
         <translation>Geçersiz ödeme adresi %1</translation>
     </message>
     <message>
-        <source>Cannot start apollon: click-to-pay handler</source>
-        <translation>Apollon başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <source>Cannot start abet: click-to-pay handler</source>
+        <translation>Abet başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid APOLLON address or malformed URI parameters.</source>
@@ -2611,8 +2611,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Sağlanan 'Ödeme Yapmak İçin' adresi yok, yerel ödeme oluşturun</translation>
     </message>
     <message>
-        <source>Invalid Apollon Address</source>
-        <translation>Geçersiz Apollon Adresi</translation>
+        <source>Invalid Abet Address</source>
+        <translation>Geçersiz Abet Adresi</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2729,7 +2729,7 @@ Lütfen sabırlı olun...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON CORE</translation>
     </message>
     </context>
@@ -3653,8 +3653,8 @@ Lütfen sabırlı olun...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
-        <translation>Apollon kapanıyor ...</translation>
+        <source>Abet is shutting down...</source>
+        <translation>Abet kapanıyor ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3803,7 +3803,7 @@ Lütfen sabırlı olun...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON CORE</translation>
     </message>
     <message>
@@ -4386,7 +4386,7 @@ Lütfen sabırlı olun...</translation>
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx meta verileri, örneğin hesap sahibi ve ödeme talebi bilgileri, 2 = tx meta verileri bırak)</translation>
@@ -4412,8 +4412,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Hesaplanan akümülatör kontrol noktası, blok indeksiyle kaydedilen kontrol noktası değildir.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Apollon is probably already running.</source>
-        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. Apollon muhtemelen zaten çalışıyor.</translation>
+        <source>Cannot obtain a lock on data directory %s. Abet is probably already running.</source>
+        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. Abet muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>

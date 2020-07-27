@@ -641,7 +641,7 @@
         <translation>Iloj langeto</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON kerno</translation>
     </message>
     <message>
@@ -649,8 +649,8 @@
         <translation>Sendu mono al APOLLON addreso</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>Peto pagojn (generas QR kodojn kaj apollon: URIs)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>Peto pagojn (generas QR kodojn kaj abet: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -665,11 +665,11 @@
         <translation>Foliumi mastro-nodo</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
+        <source>&amp;About Abet</source>
         <translation>&amp;Pri APOLLON Kerno</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
+        <source>Show information about Abet</source>
         <translation>Montri informon pri APOLLON Kerno</translation>
     </message>
     <message>
@@ -725,11 +725,11 @@
         <translation>Bloko esplorilo fenestro</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
         <translation>Montri la APOLLON Kore help-mesaĝo por havi liston de havebla APOLLON komandlinion opciojn</translation>
     </message>
     <message>
-        <source>Apollon client</source>
+        <source>Abet client</source>
         <translation>APOLLON Kerno kliento</translation>
     </message>
     <message>
@@ -868,8 +868,8 @@ Muktisendi: %1</translation>
         <translation>Tekstetikedo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Ĉiuj transakcio ne estos montri. Peor vidi ĉiuj transakcio bezonas agordi txindekso=1 en la agordo dosiero (apollon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Ĉiuj transakcio ne estos montri. Peor vidi ĉiuj transakcio bezonas agordi txindekso=1 en la agordo dosiero (abet.conf).</translation>
     </message>
 </context>
 <context>
@@ -1210,7 +1210,7 @@ Muktisendi: %1</translation>
         <translation>versio</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON kerno</translation>
     </message>
     <message>
@@ -1218,7 +1218,7 @@ Muktisendi: %1</translation>
         <translation>(%1-bajto)</translation>
     </message>
     <message>
-        <source>About Apollon</source>
+        <source>About Abet</source>
         <translation>Pri APOLLON Kerno</translation>
     </message>
     <message>
@@ -1261,15 +1261,15 @@ Muktisendi: %1</translation>
         <translation>Bonvenon</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
+        <source>Welcome to Abet.</source>
         <translation>Bonvenon al la APOLLON Kerno.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
         <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie APOLLON kernk storigis sian datumojn. </translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>APOLLON kerno elŝutos kaj konservi kopion de la APOLLON blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
     </message>
     <message>
@@ -1281,7 +1281,7 @@ Muktisendi: %1</translation>
         <translation>Uzi kutimon datumojn dosierujo:</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON kerno</translation>
     </message>
     <message>
@@ -1633,9 +1633,9 @@ Muktisendi: %1</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</source>
+https://www.transifex.com/abet-project/abet-project-translations</source>
         <translation>Ĉu mankas lingvon aŭ nekompleta tradukado? Helpu la  tradukcio ĉi tie:
-https://www.transifex.com/apollon-project/apollon-project-translations</translation>
+https://www.transifex.com/abet-project/abet-project-translations</translation>
     </message>
     <message>
         <source>Connect to the APOLLON network through a SOCKS5 proxy.</source>
@@ -1894,8 +1894,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>&lt;b&gt;malebligita&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Invalid Apollon Address</source>
-        <translation>Nevalida Apollon adreso</translation>
+        <source>Invalid Abet Address</source>
+        <translation>Nevalida Abet adreso</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -1928,7 +1928,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>NEKONATA</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON kerno</translation>
     </message>
     </context>
@@ -2304,7 +2304,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
+        <source>Abet is shutting down...</source>
         <translation>APOLLON kerno fermanta...</translation>
     </message>
     </context>
@@ -2358,7 +2358,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON kerno</translation>
     </message>
     <message>
@@ -2557,7 +2557,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>Connect through SOCKS5 proxy</source>
         <translation>Konekti per SOCKS5 prokurilo</translation>

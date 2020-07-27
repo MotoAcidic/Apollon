@@ -565,7 +565,7 @@
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON Ydin</translation>
     </message>
     <message>
@@ -573,8 +573,8 @@
         <translation>Lähetä kolikkoja APOLLON osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja apollon: URIja)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja abet: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -585,11 +585,11 @@
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
-        <translation>Apollon &amp;ytimestä</translation>
+        <source>&amp;About Abet</source>
+        <translation>Abet &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
+        <source>Show information about Abet</source>
         <translation>Näytä tietoja APOLLON Ytimestä</translation>
     </message>
     <message>
@@ -645,11 +645,11 @@
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
         <translation>Näytä APOLLON Ydin apuviesti saadaksesi lista mahdollisista APOLLON komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>Apollon client</source>
+        <source>Abet client</source>
         <translation>APOLLON Ydin asiakasohjelma</translation>
     </message>
     <message>
@@ -919,7 +919,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON Ydin</translation>
     </message>
     <message>
@@ -938,11 +938,11 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
+        <source>Welcome to Abet.</source>
         <translation>Tervetuloa APOLLON Ytimeen.</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON Ydin</translation>
     </message>
     <message>
@@ -1391,7 +1391,7 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON Ydin</translation>
     </message>
     </context>
@@ -1979,7 +1979,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
+        <source>Abet is shutting down...</source>
         <translation>APOLLON core sammuu...</translation>
     </message>
     <message>
@@ -2121,7 +2121,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON Ydin</translation>
     </message>
     <message>
@@ -2440,7 +2440,7 @@
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2486,8 +2486,8 @@
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Apollon</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Apollonsta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Abet</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Abetsta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

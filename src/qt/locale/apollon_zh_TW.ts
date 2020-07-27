@@ -557,16 +557,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Send coins to a APOLLON address</source>
         <translation>送出錢幣到 APOLLON 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 apollon 位址)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 abet 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -577,12 +577,12 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
-        <translation>&amp;關於 Apollon</translation>
+        <source>&amp;About Abet</source>
+        <translation>&amp;關於 Abet</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
-        <translation>顯示 Apollon 相關資訊</translation>
+        <source>Show information about Abet</source>
+        <translation>顯示 Abet 相關資訊</translation>
     </message>
     <message>
         <source>Modify configuration options for APOLLON</source>
@@ -637,12 +637,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
-        <translation>顯示 Apollon 幫助訊息以取得 APOLLON 命令列表選項</translation>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
+        <translation>顯示 Abet 幫助訊息以取得 APOLLON 命令列表選項</translation>
     </message>
     <message>
-        <source>Apollon client</source>
-        <translation>Apollon 客戶端</translation>
+        <source>Abet client</source>
+        <translation>Abet 客戶端</translation>
     </message>
     </context>
 <context>
@@ -674,15 +674,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -754,8 +754,8 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -904,8 +904,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -971,6 +971,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     </context>
 </TS>

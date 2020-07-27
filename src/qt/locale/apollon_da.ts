@@ -641,7 +641,7 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON kerne</translation>
     </message>
     <message>
@@ -649,7 +649,7 @@
         <translation>Send mønter til en APOLLON adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
         <translation>Anmod om betaling (genrerer QR kode og APOLLON URL)</translation>
     </message>
     <message>
@@ -665,11 +665,11 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
+        <source>&amp;About Abet</source>
         <translation>&amp;Om APOLLON kerne</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
+        <source>Show information about Abet</source>
         <translation>Vis information om APOLLON kerne</translation>
     </message>
     <message>
@@ -725,11 +725,11 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
         <translation>Vis hjelpetekster fra APOLLON kernen for at få en liste med mulige APOLLON kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>Apollon client</source>
+        <source>Abet client</source>
         <translation>APOLLON kerneklient</translation>
     </message>
     <message>
@@ -868,8 +868,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (apollon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (abet.conf).</translation>
     </message>
 </context>
 <context>
@@ -1218,7 +1218,7 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON kerne</translation>
     </message>
     <message>
@@ -1226,7 +1226,7 @@ Adresse: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Apollon</source>
+        <source>About Abet</source>
         <translation>om APOLLON kerne</translation>
     </message>
     <message>
@@ -1273,15 +1273,15 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
+        <source>Welcome to Abet.</source>
         <translation>Velkommen til APOLLON kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
         <translation>Da det er første gang programmet startes, kan De vælge hvor APOLLON kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>APOLLON kernen vil nu hente og gemme en kopi af APOLLON blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
@@ -1293,7 +1293,7 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON kerne</translation>
     </message>
     <message>
@@ -1837,9 +1837,9 @@ Vær tålmodig efter at du har klikket på import.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</source>
+https://www.transifex.com/abet-project/abet-project-translations</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/apollon-project/apollon-project-translations</translation>
+https://www.transifex.com/abet-project/abet-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2148,14 +2148,14 @@ Hvis AutoMint er aktiveret, vil denne procentdel sætte sig omkring den konfigur
         <translation>AutoMint er i øjeblikket aktiveret og indstillet til</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in apollon.conf.</source>
-        <translation>To disable AutoMint add 'enablezeromint=0' in apollon.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in abet.conf.</source>
+        <translation>To disable AutoMint add 'enablezeromint=0' in abet.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in apollon.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in abet.conf</source>
         <translation>AutoMint er for øjeblikket deaktiveret
-For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' i apollon.conf</translation>
+For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' i abet.conf</translation>
     </message>
 </context>
 <context>
@@ -2181,7 +2181,7 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start apollon: click-to-pay handler</source>
+        <source>Cannot start abet: click-to-pay handler</source>
         <translation>Kan ikke starte APOLLON "klik for at betale" systemet</translation>
     </message>
     <message>
@@ -2432,8 +2432,8 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <source>Show the current status of automatic zAPOLLON minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to apollon.conf
-- disable: add 'enablezeromint=0' to apollon.conf
+- enable: add 'enablezeromint=1' to abet.conf
+- disable: add 'enablezeromint=0' to abet.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zAPOLLON
@@ -2442,8 +2442,8 @@ To change the percentage (no restart required):
         <translation>Vis den aktuelle status for automatisk zAPOLLON minting.øj
 
 For at ændre status (genstart kræves):.
-- aktiver: tilføj 'enablezeromint = 1' til apollon.conf
-- deaktiver: tilføj 'enablezeromint = 0' til apollon.conf
+- aktiver: tilføj 'enablezeromint = 1' til abet.conf
+- deaktiver: tilføj 'enablezeromint = 0' til abet.conf
 
 For at ændre procentdelen (ingen genstart kræves):.
 - menu Indstillinger-&gt; Indstillinger-&gt; Procentdel af automatiseret zAPOLLON
@@ -2734,7 +2734,7 @@ Vær tålmodig...</translation>
         <translation>Ingen 'Betal til' adresse, der er oprettet, skaber lokal betaling</translation>
     </message>
     <message>
-        <source>Invalid Apollon Address</source>
+        <source>Invalid Abet Address</source>
         <translation> Ugyldig APOLLON adresse</translation>
     </message>
     <message>
@@ -2856,7 +2856,7 @@ Vær tålmodig...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON kerne</translation>
     </message>
     </context>
@@ -3868,7 +3868,7 @@ Vær tålmodig...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
+        <source>Abet is shutting down...</source>
         <translation>APOLLON kernen lukker ned</translation>
     </message>
     <message>
@@ -4018,7 +4018,7 @@ Vær tålmodig...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON kerne</translation>
     </message>
     <message>
@@ -4653,7 +4653,7 @@ Vær tålmodig...</translation>
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -4679,7 +4679,7 @@ Vær tålmodig...</translation>
         <translation>Beregnet akkumulator kontrolpunkt er ikke det, der er registreret af blok indeks</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Apollon is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Abet is probably already running.</source>
         <translation>Kan ikke låse datamappen %s. APOLLON core kører sandsynligvis allerede.</translation>
     </message>
     <message>
@@ -4852,7 +4852,7 @@ Vær tålmodig...</translation>
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Apollon is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Abet is probably already running.</source>
         <translation>Det var ikke muligt at forbinde %s på denne computer. APOLLON kører sandsynligvis allerede.</translation>
     </message>
     <message>
@@ -4880,7 +4880,7 @@ Vær tålmodig...</translation>
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Apollon will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Abet will not work properly.</source>
         <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil APOLLON core ikke fungere ordentligt.</translation>
     </message>
     <message>
@@ -4912,8 +4912,8 @@ Vær tålmodig...</translation>
         <translation>Der skal angives en masternodeprivkey i konfigurationen. For mere information, se i dokumentationen.</translation>
     </message>
     <message>
-        <source>(9270 could be used only on mainnet)</source>
-        <translation>(9270 kunne kun bruges på hovednettet)</translation>
+        <source>(8322 could be used only on mainnet)</source>
+        <translation>(8322 kunne kun bruges på hovednettet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4924,8 +4924,8 @@ Vær tålmodig...</translation>
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 9270 for mainnet)</source>
-        <translation>(skal være 9270 for hovednettet)</translation>
+        <source>(must be 8322 for mainnet)</source>
+        <translation>(skal være 8322 for hovednettet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -5092,7 +5092,7 @@ Vær tålmodig...</translation>
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Apollon</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Abet</source>
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af APOLLON core</translation>
     </message>
     <message>
@@ -5188,7 +5188,7 @@ Vær tålmodig...</translation>
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Apollon is shutting down.</source>
+        <source>Initialization sanity check failed. Abet is shutting down.</source>
         <translation>Initiering af sanitetskontrollen fejlede. APOLLON core lukker ned. </translation>
     </message>
     <message>
@@ -5864,7 +5864,7 @@ Vær tålmodig...</translation>
         <translation>Tegnbogen %s befinder sig udenfor datamappen %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Apollon to complete</source>
+        <source>Wallet needed to be rewritten: restart Abet to complete</source>
         <translation>Tegnebogen måtte genskrives. Genstart APOLLON core for at gøre færdig</translation>
     </message>
     <message>
