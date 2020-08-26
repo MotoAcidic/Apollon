@@ -239,8 +239,8 @@
         <translation>&amp;BIP 38 Encrypt</translation>
     </message>
     <message>
-        <source>Enter a Apollon Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Enter a Apollon Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
+        <source>Enter a Abet Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Enter a Abet Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -602,16 +602,16 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Send coins to a APOLLON address</source>
         <translation>Send coins to a APOLLON address</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>Request payments (generates QR codes and apollon: URIs)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>Request payments (generates QR codes and abet: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -622,12 +622,12 @@
         <translation>Browse masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
-        <translation>&amp;About Apollon</translation>
+        <source>&amp;About Abet</source>
+        <translation>&amp;About Abet</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
-        <translation>Show information about Apollon</translation>
+        <source>Show information about Abet</source>
+        <translation>Show information about Abet</translation>
     </message>
     <message>
         <source>Modify configuration options for APOLLON</source>
@@ -682,12 +682,12 @@
         <translation>Block explorer window</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
-        <translation>Show the Apollon help message to get a list with possible APOLLON command-line options</translation>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
+        <translation>Show the Abet help message to get a list with possible APOLLON command-line options</translation>
     </message>
     <message>
-        <source>Apollon client</source>
-        <translation>Apollon client</translation>
+        <source>Abet client</source>
+        <translation>Abet client</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to APOLLON network</source>
@@ -837,8 +837,8 @@ Address: %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</translation>
     </message>
 </context>
 <context>
@@ -1184,16 +1184,16 @@ Address: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Apollon</source>
-        <translation>About Apollon</translation>
+        <source>About Abet</source>
+        <translation>About Abet</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ Address: %4
         <translation>Welcome</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
-        <translation>Welcome to Apollon.</translation>
+        <source>Welcome to Abet.</source>
+        <translation>Welcome to Abet.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Apollon will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Abet will store its data.</translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ Address: %4
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1719,9 +1719,9 @@ Please check the address and try again.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</source>
+https://www.transifex.com/abet-project/abet-project-translations</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</translation>
+https://www.transifex.com/abet-project/abet-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2092,8 +2092,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>Invalid payment address %1</translation>
     </message>
     <message>
-        <source>Cannot start apollon: click-to-pay handler</source>
-        <translation>Cannot start apollon: click-to-pay handler</translation>
+        <source>Cannot start abet: click-to-pay handler</source>
+        <translation>Cannot start abet: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid APOLLON address or malformed URI parameters.</source>
@@ -3126,8 +3126,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
-        <translation>Apollon is shutting down...</translation>
+        <source>Abet is shutting down...</source>
+        <translation>Abet is shutting down...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3276,8 +3276,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3884,7 +3884,7 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
     </message>
 </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
@@ -3910,8 +3910,8 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Apollon is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Apollon is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Abet is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Abet is probably already running.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4082,10 +4082,10 @@ https://www.transifex.com/apollon-project/apollon-project-translations</translat
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use apollond, or the -server option to apollon-qt, you must set an rpcpassword in the configuration file:
+        <source>To use abetd, or the -server option to abet-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=apollonrpc
+rpcuser=abetrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4093,10 +4093,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "APOLLON Alert" admin@foo.com
 </source>
-        <translation>To use apollond, or the -server option to apollon-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use abetd, or the -server option to abet-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=apollonrpc
+rpcuser=abetrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4106,8 +4106,8 @@ for example: alertnotify=echo %%s | mail -s "APOLLON Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Apollon is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Apollon is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Abet is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Abet is probably already running.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4134,8 +4134,8 @@ for example: alertnotify=echo %%s | mail -s "APOLLON Alert" admin@foo.com
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Apollon will not work properly.</source>
-        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong Apollon will not work properly.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Abet will not work properly.</source>
+        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong Abet will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4166,8 +4166,8 @@ for example: alertnotify=echo %%s | mail -s "APOLLON Alert" admin@foo.com
         <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <source>(9270 could be used only on mainnet)</source>
-        <translation>(9270 could be used only on mainnet)</translation>
+        <source>(8322 could be used only on mainnet)</source>
+        <translation>(8322 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4178,8 +4178,8 @@ for example: alertnotify=echo %%s | mail -s "APOLLON Alert" admin@foo.com
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 9270 for mainnet)</source>
-        <translation>(must be 9270 for mainnet)</translation>
+        <source>(must be 8322 for mainnet)</source>
+        <translation>(must be 8322 for mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4354,8 +4354,8 @@ for example: alertnotify=echo %%s | mail -s "APOLLON Alert" admin@foo.com
         <translation>Error loading wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Apollon</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Apollon</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Abet</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Abet</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4466,8 +4466,8 @@ for example: alertnotify=echo %%s | mail -s "APOLLON Alert" admin@foo.com
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Apollon is shutting down.</source>
-        <translation>Initialization sanity check failed. Apollon is shutting down.</translation>
+        <source>Initialization sanity check failed. Abet is shutting down.</source>
+        <translation>Initialization sanity check failed. Abet is shutting down.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5086,8 +5086,8 @@ for example: alertnotify=echo %%s | mail -s "APOLLON Alert" admin@foo.com
         <translation>Wallet is locked.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Apollon to complete</source>
-        <translation>Wallet needed to be rewritten: restart Apollon to complete</translation>
+        <source>Wallet needed to be rewritten: restart Abet to complete</source>
+        <translation>Wallet needed to be rewritten: restart Abet to complete</translation>
     </message>
     <message>
         <source>Wallet options:</source>

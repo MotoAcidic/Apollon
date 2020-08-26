@@ -378,7 +378,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Zobraziť všeoapolloný prehľad peňaženky</translation>
+        <translation>Zobraziť všeoabetý prehľad peňaženky</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -569,16 +569,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Send coins to a APOLLON address</source>
         <translation>Odoslať mince na adresu APOLLON</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a apollon: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a abet: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -589,12 +589,12 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
-        <translation>O Apollon</translation>
+        <source>&amp;About Abet</source>
+        <translation>O Abet</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
-        <translation>Zobraziť informácie o Apollon</translation>
+        <source>Show information about Abet</source>
+        <translation>Zobraziť informácie o Abet</translation>
     </message>
     <message>
         <source>Modify configuration options for APOLLON</source>
@@ -649,12 +649,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
-        <translation>Zobraziť pomocnú správu programu Apollon a získajte zoznam možností príkazového riadka APOLLON</translation>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
+        <translation>Zobraziť pomocnú správu programu Abet a získajte zoznam možností príkazového riadka APOLLON</translation>
     </message>
     <message>
-        <source>Apollon client</source>
-        <translation>Apollon klient</translation>
+        <source>Abet client</source>
+        <translation>Abet klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -776,8 +776,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (apollon.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (abet.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -870,15 +870,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error</source>
@@ -982,8 +982,8 @@ MultiSend: %1</translation>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -1188,8 +1188,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -1287,7 +1287,7 @@ MultiSend: %1</translation>
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

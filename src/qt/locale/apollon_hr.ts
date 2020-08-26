@@ -617,16 +617,16 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Send coins to a APOLLON address</source>
         <translation>Pošaljite kovanice na APOLLON adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>Zahtjev za plaćanja (generira QR kodove i apollon: URI)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>Zahtjev za plaćanja (generira QR kodove i abet: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -641,12 +641,12 @@
         <translation>Pregledajte masternode</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
-        <translation>&amp; O Apollonu</translation>
+        <source>&amp;About Abet</source>
+        <translation>&amp; O Abetu</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
-        <translation>Prikaz informacija o Apollonu</translation>
+        <source>Show information about Abet</source>
+        <translation>Prikaz informacija o Abetu</translation>
     </message>
     <message>
         <source>Modify configuration options for APOLLON</source>
@@ -685,8 +685,8 @@
         <translation>Otvori konfiguracijsku datoteku za Masternode</translation>
     </message>
     <message>
-        <source>Apollon client</source>
-        <translation>Apollon klijent</translation>
+        <source>Abet client</source>
+        <translation>Abet klijent</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -922,15 +922,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1058,8 +1058,8 @@
         <translation>N/A</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -1322,8 +1322,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
-        <translation>Apollon se gasi...</translation>
+        <source>Abet is shutting down...</source>
+        <translation>Abet se gasi...</translation>
     </message>
     </context>
 <context>
@@ -1408,8 +1408,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1567,7 +1567,7 @@
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

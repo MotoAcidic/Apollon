@@ -641,16 +641,16 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Send coins to a APOLLON address</source>
         <translation>Pošaljite kovanice na APOLLON adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>Zahtjev za plaćanje (generira QR kodove i apollon: URI)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>Zahtjev za plaćanje (generira QR kodove i abet: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -665,12 +665,12 @@
         <translation>Pretraži masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
-        <translation>O Apollon</translation>
+        <source>&amp;About Abet</source>
+        <translation>O Abet</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
-        <translation>Prikaz informacija o Apollon-u</translation>
+        <source>Show information about Abet</source>
+        <translation>Prikaz informacija o Abet-u</translation>
     </message>
     <message>
         <source>Modify configuration options for APOLLON</source>
@@ -725,11 +725,11 @@
         <translation>Prozor Block preglednika</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
-        <translation>Pokažite poruku Apollon pomoći da biste dobili popis s mogućim APOLLON opcijama naredbenog retka</translation>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
+        <translation>Pokažite poruku Abet pomoći da biste dobili popis s mogućim APOLLON opcijama naredbenog retka</translation>
     </message>
     <message>
-        <source>Apollon client</source>
+        <source>Abet client</source>
         <translation>APOLLONIX Core Klijent</translation>
     </message>
     <message>
@@ -868,8 +868,8 @@ Višestruko slanje: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Nisu prikazane sve transakcije. Za pregled svih transakcija morate postaviti txindex = 1 u konfiguracijskoj datoteci (apollon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Nisu prikazane sve transakcije. Za pregled svih transakcija morate postaviti txindex = 1 u konfiguracijskoj datoteci (abet.conf).</translation>
     </message>
 </context>
 <context>
@@ -1218,16 +1218,16 @@ Višestruko slanje: %1</translation>
         <translation>verzija</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Apollon</source>
-        <translation>O Apollon</translation>
+        <source>About Abet</source>
+        <translation>O Abet</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1273,16 +1273,16 @@ Višestruko slanje: %1</translation>
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
-        <translation>Dobrodošli u Apollon.</translation>
+        <source>Welcome to Abet.</source>
+        <translation>Dobrodošli u Abet.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
-        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će Apollon pohraniti svoje podatke.</translation>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
+        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će Abet pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Apollon preuzima i pohranjuje kopiju APOLLON blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Abet preuzima i pohranjuje kopiju APOLLON blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1293,8 +1293,8 @@ Višestruko slanje: %1</translation>
         <translation>Koristite prilagođeni direktorij podataka:</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1821,9 +1821,9 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</source>
+https://www.transifex.com/abet-project/abet-project-translations</source>
         <translation>Jezik nedostaje ili prijevod nije potpun? Pomozite s prijevodima ovdje:
-https://www.transifex.com/apollon-project/apollon-project-translations</translation>
+https://www.transifex.com/abet-project/abet-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2134,14 +2134,14 @@ Ako je omogućeno automatsko navođenje, ovaj postotak će se podmiriti oko konf
         <translation>AutoMint je trenutno omogućen i podešen na</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in apollon.conf.</source>
-        <translation>Da biste onemogućili AutoMint, dodajte 'enablezeromint=0' u apollon.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in abet.conf.</source>
+        <translation>Da biste onemogućili AutoMint, dodajte 'enablezeromint=0' u abet.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in apollon.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in abet.conf</source>
         <translation>AutoMint je trenutno onemogućen.
-Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablezeromint=1' u apollon.conf</translation>
+Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablezeromint=1' u abet.conf</translation>
     </message>
 </context>
 <context>
@@ -2167,8 +2167,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Nevažeća adresa za plaćanje %1</translation>
     </message>
     <message>
-        <source>Cannot start apollon: click-to-pay handler</source>
-        <translation>Ne može se pokrenuti apollon: clik-to-pay handler</translation>
+        <source>Cannot start abet: click-to-pay handler</source>
+        <translation>Ne može se pokrenuti abet: clik-to-pay handler</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid APOLLON address or malformed URI parameters.</source>
@@ -2418,8 +2418,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <source>Show the current status of automatic zAPOLLON minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to apollon.conf
-- disable: add 'enablezeromint=0' to apollon.conf
+- enable: add 'enablezeromint=1' to abet.conf
+- disable: add 'enablezeromint=0' to abet.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zAPOLLON
@@ -2428,8 +2428,8 @@ To change the percentage (no restart required):
         <translation>Pokažite trenutačni status automatskog zAPOLLON mintanja.
 
 Da biste promijenili status (potrebno je ponovno pokretanje):
-- omogući: dodajte 'enablezeromint = 1' u apollon.conf
-- onemogućiti: dodajte 'enablezeromint = 0' na apollon.conf
+- omogući: dodajte 'enablezeromint = 1' u abet.conf
+- onemogućiti: dodajte 'enablezeromint = 0' na abet.conf
 
 Promjena postotka (nije potrebno ponovno pokretanje):
 - izbornik Postavke-&gt; Opcije-&gt; Postotak zAPOLLON</translation>
@@ -2718,8 +2718,8 @@ Please be patient...</source>
         <translation>Nije dodijeljena adresa "Plati", stvarajući lokalnu uplatu</translation>
     </message>
     <message>
-        <source>Invalid Apollon Address</source>
-        <translation>Nevažeća Apollon Adresa</translation>
+        <source>Invalid Abet Address</source>
+        <translation>Nevažeća Abet Adresa</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2840,8 +2840,8 @@ Please be patient...</source>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     </context>
 <context>
@@ -3852,8 +3852,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
-        <translation>Apollon se zatvara ...</translation>
+        <source>Abet is shutting down...</source>
+        <translation>Abet se zatvara ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4002,8 +4002,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4019,7 +4019,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>The APOLLON Core developers</source>
-        <translation>Apollon programeri</translation>
+        <translation>Abet programeri</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4638,7 +4638,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = zadržite metapodatke tx, npr. Vlasnika računa i podatke o zahtjevu za plaćanje, 2 = odbaci meta podataka tx)</translation>
@@ -4664,8 +4664,8 @@ Please be patient...</source>
         <translation>Izračunata kontrolna točka akumulatora nije ono što se bilježi indeksom blokova</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Apollon is probably already running.</source>
-        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. Apollon vjerojatno već radi.</translation>
+        <source>Cannot obtain a lock on data directory %s. Abet is probably already running.</source>
+        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. Abet vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4836,8 +4836,8 @@ Please be patient...</source>
         <translation>Ovaj proizvod uključuje softver razvijen od strane OpenSSL projekta za uporabu u OpenSSL Toolkitu i kriptografskom softveru kojeg je napisao Eric Young i UPnP softver koji je napisao Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Apollon is probably already running.</source>
-        <translation>Nije moguće vezati se na %s na ovom računalu. Apollon vjerojatno već radi.</translation>
+        <source>Unable to bind to %s on this computer. Abet is probably already running.</source>
+        <translation>Nije moguće vezati se na %s na ovom računalu. Abet vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4864,8 +4864,8 @@ Please be patient...</source>
         <translation>Upozorenje: -paytxfee je vrlo visoka! To je transakcijska naknada koju ćete platiti ako šaljete transakciju.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Apollon will not work properly.</source>
-        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Apollon neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Abet will not work properly.</source>
+        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Abet neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4896,8 +4896,8 @@ Please be patient...</source>
         <translation>Morate odrediti masternodeprivkey u konfiguraciji. Za pomoć pogledajte dokumentaciju.</translation>
     </message>
     <message>
-        <source>(9270 could be used only on mainnet)</source>
-        <translation>(9270 se može koristiti samo na mainnetu)</translation>
+        <source>(8322 could be used only on mainnet)</source>
+        <translation>(8322 se može koristiti samo na mainnetu)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4908,8 +4908,8 @@ Please be patient...</source>
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 9270 for mainnet)</source>
-        <translation>(mora biti 9270 za glavnu mrežu)</translation>
+        <source>(must be 8322 for mainnet)</source>
+        <translation>(mora biti 8322 za glavnu mrežu)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -5077,7 +5077,7 @@ Please be patient...</source>
         <translation>Pogreška pri učitavanju wallet.dat: novčanik oštećen</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Apollon</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Abet</source>
         <translation>Pogreška prilikom učitavanja wallet.dat: Novčanik zahtijeva noviju verziju APOLLON jezgre</translation>
     </message>
     <message>
@@ -5169,8 +5169,8 @@ Please be patient...</source>
         <translation>Informacije</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Apollon is shutting down.</source>
-        <translation>Provjera ispravnosti inicijalizacije nije uspjela. Apollon se zatvara.</translation>
+        <source>Initialization sanity check failed. Abet is shutting down.</source>
+        <translation>Provjera ispravnosti inicijalizacije nije uspjela. Abet se zatvara.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5844,8 +5844,8 @@ Please be patient...</source>
         <translation>Novčanik %s nalazi se izvan direktorija podataka %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Apollon to complete</source>
-        <translation>Potrebno je prepisati novčanik: ponovo pokrenite Apollon</translation>
+        <source>Wallet needed to be rewritten: restart Abet to complete</source>
+        <translation>Potrebno je prepisati novčanik: ponovo pokrenite Abet</translation>
     </message>
     <message>
         <source>Wallet options:</source>

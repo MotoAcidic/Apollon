@@ -215,6 +215,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     </context>
 </TS>

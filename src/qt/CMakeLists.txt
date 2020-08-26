@@ -59,7 +59,6 @@ set(GUI_FORMS
         ${CMAKE_CURRENT_SOURCE_DIR}/forms/askpassphrasedialog.ui
         ${CMAKE_CURRENT_SOURCE_DIR}/forms/bip38tooldialog.ui
         ${CMAKE_CURRENT_SOURCE_DIR}/forms/coincontroldialog.ui
-        ${CMAKE_CURRENT_SOURCE_DIR}/forms/governancepage.ui
         ${CMAKE_CURRENT_SOURCE_DIR}/forms/zpivcontroldialog.ui
         ${CMAKE_CURRENT_SOURCE_DIR}/forms/blockexplorer.ui
         ${CMAKE_CURRENT_SOURCE_DIR}/forms/editaddressdialog.ui
@@ -92,7 +91,6 @@ SET(QT_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/bitcoinunits.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/clientmodel.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/csvmodelwriter.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/governancepage.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/guiutil.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/intro.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/multisigdialog.cpp
@@ -116,7 +114,6 @@ SET(QT_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/zpivcontroldialog.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/coincontroltreewidget.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/privacydialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/proposalframe.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/editaddressdialog.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/masternodelist.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/openuridialog.cpp

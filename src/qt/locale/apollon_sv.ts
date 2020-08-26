@@ -657,16 +657,16 @@
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Send coins to a APOLLON address</source>
         <translation>Skicka mynt till en APOLLON adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och apollon: URls)</translation>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och abet: URls)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -681,11 +681,11 @@
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
+        <source>&amp;About Abet</source>
         <translation>Om APOLLON Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
+        <source>Show information about Abet</source>
         <translation>Visa information om APOLLON Kärnan</translation>
     </message>
     <message>
@@ -741,11 +741,11 @@
         <translation>Blockera utforskarfönstret</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
-        <translation>Visa Apollon hjälp meddelande för att få en lista med möjliga APOLLON kommandorad alternativ</translation>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
+        <translation>Visa Abet hjälp meddelande för att få en lista med möjliga APOLLON kommandorad alternativ</translation>
     </message>
     <message>
-        <source>Apollon client</source>
+        <source>Abet client</source>
         <translation>APOLLON kärn klient</translation>
     </message>
     <message numerus="yes">
@@ -908,8 +908,8 @@ MultiSend: %1</translation>
         <translation>text etikett</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Alla transaktioner kommer inte visas. För att visa alla transaktioner behöver du sätta txindex=1 i konfigurationsfilen (apollon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Alla transaktioner kommer inte visas. För att visa alla transaktioner behöver du sätta txindex=1 i konfigurationsfilen (abet.conf).</translation>
     </message>
 </context>
 <context>
@@ -1290,15 +1290,15 @@ MultiSend: %1</translation>
         <translation>version</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Apollon</source>
+        <source>About Abet</source>
         <translation>Om APOLLON Kärna</translation>
     </message>
     <message>
@@ -1345,15 +1345,15 @@ MultiSend: %1</translation>
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
-        <translation>Välkommen till Apollon.</translation>
+        <source>Welcome to Abet.</source>
+        <translation>Välkommen till Abet.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
-        <translation>Eftersom detta är första gången programmet körs så kan du välja var Apollon ska spara sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
+        <translation>Eftersom detta är första gången programmet körs så kan du välja var Abet ska spara sin data.</translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>APOLLON Kärnan kommer ladda ner och spara en kopia av APOLLON block chain. Minst %1GB data kommer sparas i denna katalog och den kommer växa med tiden. Plånboken kommer också sparas i denna katalog.</translation>
     </message>
     <message>
@@ -1365,8 +1365,8 @@ MultiSend: %1</translation>
         <translation>Använd en skräddarsydd data katalog</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1961,9 +1961,9 @@ Var god vänta efter att du trycker på importera.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</source>
+https://www.transifex.com/abet-project/abet-project-translations</source>
         <translation>Fattas språk eller är översättningen ofullständig? Hjälp till att bidra med översättning här:
-https://www.transifex.com/apollon-project/apollon-project-translations</translation>
+https://www.transifex.com/abet-project/abet-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2289,14 +2289,14 @@ Om AutoMint är tillåten så kommer denna procent att vara som den konfigurerad
         <translation>AutoMint är för tillfället aktiverat och inställt på</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in apollon.conf.</source>
-        <translation>För att inaktivera AutoMint, lägg till 'enablezeromint=0' i apollon.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in abet.conf.</source>
+        <translation>För att inaktivera AutoMint, lägg till 'enablezeromint=0' i abet.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in apollon.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in abet.conf</source>
         <translation>AutoMint är för närvarande inaktiverat.
-För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i apollon.conf</translation>
+För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i abet.conf</translation>
     </message>
 </context>
 <context>
@@ -2322,8 +2322,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i a
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>Cannot start apollon: click-to-pay handler</source>
-        <translation>Kan ej starta apollon: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start abet: click-to-pay handler</source>
+        <translation>Kan ej starta abet: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid APOLLON address or malformed URI parameters.</source>
@@ -2573,8 +2573,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <source>Show the current status of automatic zAPOLLON minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to apollon.conf
-- disable: add 'enablezeromint=0' to apollon.conf
+- enable: add 'enablezeromint=1' to abet.conf
+- disable: add 'enablezeromint=0' to abet.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zAPOLLON
@@ -2583,8 +2583,8 @@ To change the percentage (no restart required):
         <translation>Visa den nuvarande statusen av automatisk zAPOLLON minting.
 
 För att ändra statusen (omstart krävs):
--aktivera: lägg till 'enablezeromint=1' i apollon.conf
--inaktivera: lägg till 'enablezeromint=0' i apollon.conf
+-aktivera: lägg till 'enablezeromint=1' i abet.conf
+-inaktivera: lägg till 'enablezeromint=0' i abet.conf
 
 För att ändra procenten (ingen omstart krävs):
 -meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zAPOLLON
@@ -2896,8 +2896,8 @@ Ha lite tålamod...</translation>
         <translation>Ingen 'Betala Till' adress inmatad, skapar lokal betalning</translation>
     </message>
     <message>
-        <source>Invalid Apollon Address</source>
-        <translation>Ogiltig Apollon Adress</translation>
+        <source>Invalid Abet Address</source>
+        <translation>Ogiltig Abet Adress</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -3090,8 +3090,8 @@ Var tålmodig...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -3102,8 +3102,8 @@ Var tålmodig...</translation>
         <translation>Fel vid inläsning av masternodens konfigurationsfil: %1</translation>
     </message>
     <message>
-        <source>Apollon didn't yet exit safely...</source>
-        <translation>Apollon avslutades ännu inte säkert...</translation>
+        <source>Abet didn't yet exit safely...</source>
+        <translation>Abet avslutades ännu inte säkert...</translation>
     </message>
 </context>
 <context>
@@ -4138,8 +4138,8 @@ Var tålmodig...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
-        <translation>Apollon stängs ner...</translation>
+        <source>Abet is shutting down...</source>
+        <translation>Abet stängs ner...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4288,8 +4288,8 @@ Var tålmodig...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
-        <translation>Apollon</translation>
+        <source>Abet</source>
+        <translation>Abet</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4305,7 +4305,7 @@ Var tålmodig...</translation>
     </message>
     <message>
         <source>The APOLLON Core developers</source>
-        <translation>Apollon utvecklarna</translation>
+        <translation>Abet utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4939,7 +4939,7 @@ Var tålmodig...</translation>
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behåll tx meta data t.ex. kontoägare och information om betalningsförfråga, 2 = släpp tx meta data)</translation>
@@ -4965,7 +4965,7 @@ Var tålmodig...</translation>
         <translation>Beräknade ackumulator kontrollstation är inte vad som sparats av block index</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Apollon is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Abet is probably already running.</source>
         <translation>Kan ej låsa in på data katalog %s. APOLLON Kärna körs förmodligen redan.</translation>
     </message>
     <message>
@@ -5141,8 +5141,8 @@ Var tålmodig...</translation>
         <translation>Totala längden av nätverks verisionens sträng (%i) överskrider maximala längd (%i). Minska mängden eller storleken av uakommentarer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Apollon is probably already running.</source>
-        <translation>Kan inte binda till %s på denna dator. Apollon körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. Abet is probably already running.</source>
+        <translation>Kan inte binda till %s på denna dator. Abet körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -5169,8 +5169,8 @@ Var tålmodig...</translation>
         <translation>Varning: -maxtxfee är sätt väldigt högt! Detta är transaktionsavgiften du kommer betala om du skickar en transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Apollon will not work properly.</source>
-        <translation>Varning: Var vänlig kontrollera att din dators tid och datum är korrekt! Om din klocka är fel så kommer Apollon inte att fungera korrekt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Abet will not work properly.</source>
+        <translation>Varning: Var vänlig kontrollera att din dators tid och datum är korrekt! Om din klocka är fel så kommer Abet inte att fungera korrekt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5201,8 +5201,8 @@ Var tålmodig...</translation>
         <translation>Du måste specifiera en masternodeprivkey i konfigurationen. Var vänlig se dokumentationen för hjälp.</translation>
     </message>
     <message>
-        <source>(9270 could be used only on mainnet)</source>
-        <translation>(9270 kunde endast användas på mainnet)</translation>
+        <source>(8322 could be used only on mainnet)</source>
+        <translation>(8322 kunde endast användas på mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5213,8 +5213,8 @@ Var tålmodig...</translation>
         <translation>(standard: 1)</translation>
     </message>
     <message>
-        <source>(must be 9270 for mainnet)</source>
-        <translation>(måste vara 9270 för mainnet)</translation>
+        <source>(must be 8322 for mainnet)</source>
+        <translation>(måste vara 8322 för mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -5385,7 +5385,7 @@ Var tålmodig...</translation>
         <translation>Fel vid laddning av wallet.dat: Plånbok korrupterad</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Apollon</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Abet</source>
         <translation>Fel vid laddning av wallet.dat: Plånbok  kräver nyare APOLLON Kärna version</translation>
     </message>
     <message>
@@ -5481,7 +5481,7 @@ Var tålmodig...</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Apollon is shutting down.</source>
+        <source>Initialization sanity check failed. Abet is shutting down.</source>
         <translation>Initierings renlighetscheck misslyckades. APOLLON Kärna stängs ner.</translation>
     </message>
     <message>
@@ -6169,7 +6169,7 @@ Var tålmodig...</translation>
         <translation>Plånbok %s finns utanför data katalog %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Apollon to complete</source>
+        <source>Wallet needed to be rewritten: restart Abet to complete</source>
         <translation>Plånbok behöver skrivas om: starta om APOLLON Kärna för att göra klart</translation>
     </message>
     <message>

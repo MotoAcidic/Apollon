@@ -327,7 +327,7 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>Information</source>
         <translation>जानकारी</translation>

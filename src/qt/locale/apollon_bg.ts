@@ -255,7 +255,7 @@
     </message>
     <message>
         <source>Enter a APOLLON Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Apollon адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания таен ключ. </translation>
+        <translation>Въведете Abet адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания таен ключ. </translation>
     </message>
     <message>
         <source>The APOLLON address to encrypt</source>
@@ -641,7 +641,7 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON Ядро</translation>
     </message>
     <message>
@@ -649,7 +649,7 @@
         <translation>Изпратете монети до APOLLON адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and apollon: URIs)</source>
+        <source>Request payments (generates QR codes and abet: URIs)</source>
         <translation>Поискай плащане (генерира QR кодове и  APOLLON:URI)</translation>
     </message>
     <message>
@@ -665,11 +665,11 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About Apollon</source>
+        <source>&amp;About Abet</source>
         <translation>&amp;Относно APOLLON Ядрото</translation>
     </message>
     <message>
-        <source>Show information about Apollon</source>
+        <source>Show information about Abet</source>
         <translation>Информациза за APOLLON Ядрото</translation>
     </message>
     <message>
@@ -725,11 +725,11 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the Apollon help message to get a list with possible APOLLON command-line options</source>
+        <source>Show the Abet help message to get a list with possible APOLLON command-line options</source>
         <translation>Разкрийте Помощ за APOLLON Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>Apollon client</source>
+        <source>Abet client</source>
         <translation>Клиент APOLLON Ядро</translation>
     </message>
     <message>
@@ -868,8 +868,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (apollon.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (apollon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (abet.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (abet.conf).</translation>
     </message>
 </context>
 <context>
@@ -1218,7 +1218,7 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON Ядро</translation>
     </message>
     <message>
@@ -1226,7 +1226,7 @@ Address: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Apollon</source>
+        <source>About Abet</source>
         <translation>Относно APOLLON Ядрото</translation>
     </message>
     <message>
@@ -1273,15 +1273,15 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to Apollon.</source>
+        <source>Welcome to Abet.</source>
         <translation>Добре Дошли в APOLLON Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Apollon will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Abet will store its data.</source>
         <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде APOLLON Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>Apollon will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Abet will download and store a copy of the APOLLON block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>APOLLON Ядрото ще изтегли и запише копие на целия APOLLON блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
@@ -1293,7 +1293,7 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON Ядро</translation>
     </message>
     <message>
@@ -1819,9 +1819,9 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/apollon-project/apollon-project-translations</source>
+https://www.transifex.com/abet-project/abet-project-translations</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/apollon-project/apollon-project-translations</translation>
+https://www.transifex.com/abet-project/abet-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2123,14 +2123,14 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>АвтоЕмисията е включена и настроена на</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in apollon.conf.</source>
-        <translation>Да изключите АвтоЕмисия добавете  'enablezeromint=0' в apollon.conf файла.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in abet.conf.</source>
+        <translation>Да изключите АвтоЕмисия добавете  'enablezeromint=0' в abet.conf файла.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in apollon.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in abet.conf</source>
         <translation>АвтоЕмисия е изключено.
-За да включите АвтоЕмисия сменете 'enablezeromint=0' на 'enablezeromint=1' в apollon.conf файла.</translation>
+За да включите АвтоЕмисия сменете 'enablezeromint=0' на 'enablezeromint=1' в abet.conf файла.</translation>
     </message>
 </context>
 <context>
@@ -2156,8 +2156,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in apollon.co
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start apollon: click-to-pay handler</source>
-        <translation>Провал при стартирането на apollon: click-to-pay обработвател</translation>
+        <source>Cannot start abet: click-to-pay handler</source>
+        <translation>Провал при стартирането на abet: click-to-pay обработвател</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid APOLLON address or malformed URI parameters.</source>
@@ -2407,8 +2407,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <source>Show the current status of automatic zAPOLLON minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to apollon.conf
-- disable: add 'enablezeromint=0' to apollon.conf
+- enable: add 'enablezeromint=1' to abet.conf
+- disable: add 'enablezeromint=0' to abet.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zAPOLLON
@@ -2417,8 +2417,8 @@ To change the percentage (no restart required):
         <translation>Покажи състоянието на автоматичното zAPOLLON емитиране.
 
 За да пормените състоянието (изисква рестарт):
-- вклчване: добавете 'enablezeromint=1' в apollon.conf
-- изключване: добавете 'enablezeromint=0' в apollon.conf
+- вклчване: добавете 'enablezeromint=1' в abet.conf
+- изключване: добавете 'enablezeromint=0' в abet.conf
 
 За промяна в процентите (не изисква рестарт):
 - меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zAPOLLON
@@ -2709,7 +2709,7 @@ Please be patient...</source>
         <translation>Без 'Плати На' адрес, плащането е локално</translation>
     </message>
     <message>
-        <source>Invalid Apollon Address</source>
+        <source>Invalid Abet Address</source>
         <translation>Невалиден APOLLON адрес</translation>
     </message>
     <message>
@@ -2831,7 +2831,7 @@ Please be patient...</source>
         <translation>%1 милисек.</translation>
     </message>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON Ядро</translation>
     </message>
     </context>
@@ -3839,7 +3839,7 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Apollon is shutting down...</source>
+        <source>Abet is shutting down...</source>
         <translation>Изключване на APOLLON Ядрото...</translation>
     </message>
     <message>
@@ -3989,7 +3989,7 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Apollon</source>
+        <source>Abet</source>
         <translation>APOLLON Ядро</translation>
     </message>
     <message>
@@ -4006,7 +4006,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>The APOLLON Core developers</source>
-        <translation>Apollon разработчици</translation>
+        <translation>Abet разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4624,7 +4624,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>apollon-core</name>
+    <name>abet-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = пази мета данните от преводи, например собственик на акаунта и ифнормация за изисквани плащания, 2 = изхръвли мета данните от преводи)</translation>
@@ -4650,7 +4650,7 @@ Please be patient...</source>
         <translation>Изчисления чекпойнт на акумулатора не е същия като записания в блок индекса.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Apollon is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Abet is probably already running.</source>
         <translation>Не може да заключи папката с данни %s. APOLLON Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
@@ -4822,7 +4822,7 @@ Please be patient...</source>
         <translation>Този продукт включва софтуер разработен от OpenSSL Project &lt;https://www.openssl.org/&gt; и крипто софтуер написан от Ерик Юнг и UPnP софтуер от Томас Бернард.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Apollon is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Abet is probably already running.</source>
         <translation>Не може да се прикачи към %s на този компютър. APOLLON Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
@@ -4850,7 +4850,7 @@ Please be patient...</source>
         <translation>Внимание: -paytxfee е зададена твърде голяма! Това е преводната такса, която ще платите ако изпратите този превод.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Apollon will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Abet will not work properly.</source>
         <translation>Внимание: Проверете дали датата и часа на компютъра са верни! Ако Вашият часовник греши, APOLLON Портфейла няма да работи правилно.</translation>
     </message>
     <message>
@@ -4882,8 +4882,8 @@ Please be patient...</source>
         <translation>Трябва да зададете masternodeprivkey в конфигурационния файл. Консултирайте се с документацията за повече помощ.</translation>
     </message>
     <message>
-        <source>(9270 could be used only on mainnet)</source>
-        <translation>(9270 може да се ползва само в mainnet)</translation>
+        <source>(8322 could be used only on mainnet)</source>
+        <translation>(8322 може да се ползва само в mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4894,8 +4894,8 @@ Please be patient...</source>
         <translation>(по подразбиране: 1)</translation>
     </message>
     <message>
-        <source>(must be 9270 for mainnet)</source>
-        <translation>(трябва да е 9270 за mainnet)</translation>
+        <source>(must be 8322 for mainnet)</source>
+        <translation>(трябва да е 8322 за mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4983,7 +4983,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The APOLLON Core Developers</source>
-        <translation>Всички права запазени (c) 2015-%i Apollon разработчици</translation>
+        <translation>Всички права запазени (c) 2015-%i Abet разработчици</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5062,7 +5062,7 @@ Please be patient...</source>
         <translation>Грешка в зареждането на wallet.dat: Портфейла е повреден</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Apollon</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Abet</source>
         <translation>Грешка в зареждането на wallet.dat: Портфейла изисква по-нова версия</translation>
     </message>
     <message>
@@ -5150,7 +5150,7 @@ Please be patient...</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Apollon is shutting down.</source>
+        <source>Initialization sanity check failed. Abet is shutting down.</source>
         <translation>Стартирането на проверка на здравословното състояние на портфейла се провали. Изключваме Портфейла.</translation>
     </message>
     <message>
@@ -5826,7 +5826,7 @@ Please be patient...</source>
         <translation>Портфейла %s е извън папката с данни %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Apollon to complete</source>
+        <source>Wallet needed to be rewritten: restart Abet to complete</source>
         <translation>Портфейла трябва да се пренапише: рестартирайте програмата за завършване на процеса</translation>
     </message>
     <message>
