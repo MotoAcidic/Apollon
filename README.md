@@ -1,7 +1,7 @@
 [![Discord Chat](https://img.shields.io/discord/473618220524240928.svg?style=flat&logo=Discord)](https://apollon.io/go/discord) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/apollonofficial.svg?style=social)](https://apollon.io/go/twitter) 
 
-About Apollon.io
+About Apollon.com
 =====
 <p>Mutual betting is widely adopted in gambling and applied to horse racing, greyhound racing and sports betting. Apollon is the first platform that combines this model with blockchain technology, what allows to benefit from the advantages of own cryptocurrency.</p>
 <p>In the long-term perspective, Apollon aspires to become world’s leading online mutual betting platform.</p>
