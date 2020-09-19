@@ -1,4 +1,4 @@
-[![Discord Chat](https://img.shields.io/discord/473618220524240928.svg?style=flat&logo=Discord)](https://apollon.io/go/discord) 
+[![Discord Chat](https://img.shields.io/discord/473618220524240928.svg?style=flat&logo=Discord)](https://apollon.com/go/discord) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/apollonofficial.svg?style=social)](https://apollon.io/go/twitter) 
 
 About Apollon.io
